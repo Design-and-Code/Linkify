@@ -1,6 +1,6 @@
 # Linkify - All your Links in one
 ## What is Linkify?
-A site which lets you include all your links in a single page website with easy customizations. It gives you your own URL to share it with anyone you want on the internet.
+A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
 
 ## Highlights:
 - Easily Customize the looks of your webpage based on your preference.
