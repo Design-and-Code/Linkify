@@ -44,3 +44,4 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 
 
 ## Contributors
+<a href="https://github.com/priyanshk20">Priyansh Khandelwal</a>: Frontend Developer. </br>
