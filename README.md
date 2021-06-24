@@ -40,7 +40,9 @@ Welcome to Design & Code where anyone interested in designing and coding can con
   
 ## Team
 <a href="https://github.com/Prathamkrishna">Pratham Krishna</a>: Full stack, cross-platform/native developer. </br>
-<a href="https://github.com/DevrajDC">Devraj Chatribin</a>: Front-end Developer, UI/UX designer.
+<a href="https://github.com/DevrajDC">Devraj Chatribin</a>: Front-end Developer, UI/UX designer. </br>
+<a href="https://github.com/avinashkranjan">Avinash Ranjan</a>: Full Stack, Cross-Platform Developer.
+
 
 ## Contributors
 <a href="https://github.com/priyanshk20">Priyansh Khandelwal</a>: Frontend Developer. </br>
