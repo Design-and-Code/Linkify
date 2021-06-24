@@ -1,4 +1,5 @@
 # Linkify - All your Links in one
+
 ## What is Linkify?
 A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
 
@@ -36,3 +37,9 @@ Welcome to Design & Code where anyone interested in designing and coding can con
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
 <br />
+  
+## Team
+<a href="https://github.com/Prathamkrishna">Pratham Krishna</a>: Full stack, cross-platform/native developer.
+
+
+## Contributors
