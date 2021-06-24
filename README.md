@@ -39,7 +39,8 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <br />
   
 ## Team
-<a href="https://github.com/Prathamkrishna">Pratham Krishna</a>: Full stack, cross-platform/native developer.
+<a href="https://github.com/Prathamkrishna">Pratham Krishna</a>: Full stack, cross-platform/native developer. </br>
+<a href="https://github.com/DevrajDC">Devraj Chatribin</a>: Front-end Developer, UI/UX designer.
 
 
 ## Contributors
