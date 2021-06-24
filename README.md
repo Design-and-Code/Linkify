@@ -1,10 +1,10 @@
 # Linkify - All your Links in one
 
-##Team
+## Team
 <a href="https://github.com/Prathamkrishna">Pratham Krishna</a>
 
 
-##Members
+## Members
 
 ## What is Linkify?
 A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
