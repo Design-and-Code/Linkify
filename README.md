@@ -56,7 +56,7 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/Avni1802">Avni Agrawal</a>: FullStack Developer. </br>
 <a href="https://github.com/lostgirljourney">Falguni Sarkar</a>: Frontend Developer. </br>
 <a href="https://github.com/itsdeekay">Deepak Kumar</a> : Fullstack Developer.</br>
-<a href="https://github.com/itsdeekay">Barenya Kumar Panda</a> : Frontend Developer.</br>
+<a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a> : Frontend Developer.</br>
 
 # How to contribute?
 
