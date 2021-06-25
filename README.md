@@ -6,16 +6,16 @@ A site that lets you include all your links in a single-page website with easy c
 
 ## Highlights:
 
-- Easily Customize the looks of your webpage based on your preference.
-- Dashboard Interface with good UI.
-- Have your own custom URL to your page.
-- Open sourced and completely free. Community can keep adding new features and customize it since its open sourced.
+-   Easily Customize the looks of your webpage based on your preference.
+-   Dashboard Interface with good UI.
+-   Have your own custom URL to your page.
+-   Open sourced and completely free. Community can keep adding new features and customize it since its open sourced.
 
 ## Why this project?:
 
-- Everyone needs a website to quickly share which can have all their links together. Which is why an open sourced project can have more customizations and will be completely for free.
-- Good project for the community to build as well as use it for themselves. Since making a project which is not much useful for the community is useless.
-- Most of the other platforms have very limited customization and is paid feature.
+-   Everyone needs a website to quickly share which can have all their links together. Which is why an open sourced project can have more customizations and will be completely for free.
+-   Good project for the community to build as well as use it for themselves. Since making a project which is not much useful for the community is useless.
+-   Most of the other platforms have very limited customization and is paid feature.
 
 ## [Design-and-Code](https://discord.gg/druweDMn3s)
 
@@ -58,6 +58,7 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/itsdeekay">Deepak Kumar</a> : Fullstack Developer.</br>
 <a href="https://github.com/ASLManasa">A.S.L.Manasa</a> : Frontend Developer.</br>
 <a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a> : Frontend Developer.</br>
+<a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a> : Frontend Developer.</br>
 
 # How to contribute?
 
@@ -65,17 +66,17 @@ If you want to contribute to a project and make it better, your help is very wel
 
 ## How to make a clean pull request
 
-- Create a personal fork of the project on Github.
-- Clone the fork on your local machine. Your remote repo on Github is called `origin`.
-- Add the original repository as a remote called `upstream`.
-- If you created your fork a while ago be sure to pull upstream changes into your local repository.
-- Create a new branch to work on!
-- Implement/fix your feature, comment your code.
-- Follow the code style of the project, including indentation.
-- Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
-- Push your branch to your fork on Github, the remote `origin`.
-- From your fork open a pull request in the correct branch.
-- Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
-  your extra branch(es).
+-   Create a personal fork of the project on Github.
+-   Clone the fork on your local machine. Your remote repo on Github is called `origin`.
+-   Add the original repository as a remote called `upstream`.
+-   If you created your fork a while ago be sure to pull upstream changes into your local repository.
+-   Create a new branch to work on!
+-   Implement/fix your feature, comment your code.
+-   Follow the code style of the project, including indentation.
+-   Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
+-   Push your branch to your fork on Github, the remote `origin`.
+-   From your fork open a pull request in the correct branch.
+-   Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
+    your extra branch(es).
 
 If you have any doubts even though its silly or small, do not hesitate to ask the team for help/guidance. If you haven't joined our [discord](https://discord.gg/druweDMn3s) then join now, since further project discussions will happen on the discord server. Happy Coding!
