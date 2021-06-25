@@ -47,6 +47,8 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 ## Contributors
 <a href="https://github.com/priyanshk20">Priyansh Khandelwal</a>: Frontend Developer. </br>
 <a href="https://github.com/nimishjn">Nimish Jain</a>: Frontend Developer. </br>
+<a href="https://github.com/Greeshma2903">M. Greeshma</a>: Frontend Developer. </br>
+<a href="https://github.com/Avni1802">Avni Agrawal</a>: FullStack Developer. </br>
 <a href="https://github.com/lostgirljourney">Falguni Sarkar</a>: Frontend Developer. </br>
 
 # How to contribute?
