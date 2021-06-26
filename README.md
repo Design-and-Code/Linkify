@@ -58,6 +58,7 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/itsdeekay">Deepak Kumar</a> : Fullstack Developer.</br>
 <a href="https://github.com/ASLManasa">A.S.L.Manasa</a> : Frontend Developer.</br>
 <a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a> : Frontend Developer.</br>
+<a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a> : Frontend Developer.</br>
 
 # How to contribute?
 
