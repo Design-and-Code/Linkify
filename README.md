@@ -81,3 +81,6 @@ If you want to contribute to a project and make it better, your help is very wel
   your extra branch(es).
 
 If you have any doubts even though its silly or small, do not hesitate to ask the team for help/guidance. If you haven't joined our [discord](https://discord.gg/druweDMn3s) then join now, since further project discussions will happen on the discord server. Happy Coding!
+
+# Design:
+![Frame 5 (1)](https://user-images.githubusercontent.com/65373279/123658241-26ce4380-d84f-11eb-8bc3-0436548a3da3.png)
