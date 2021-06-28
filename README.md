@@ -55,8 +55,11 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/Greeshma2903">M. Greeshma</a>: Frontend Developer. </br>
 <a href="https://github.com/Avni1802">Avni Agrawal</a>: FullStack Developer. </br>
 <a href="https://github.com/lostgirljourney">Falguni Sarkar</a>: Frontend Developer. </br>
-<a href="https://github.com/itsdeekay">Deepak Kumar</a> : Fullstack Developer.</br>
-<a href="https://github.com/itsdeekay">Barenya Kumar Panda</a> : Frontend Developer.</br>
+<a href="https://github.com/itsdeekay">Deepak Kumar</a>: Fullstack Developer.</br>
+<a href="https://github.com/ASLManasa">A.S.L.Manasa</a>: Frontend Developer.</br>
+<a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a>: Frontend Developer.</br>
+<a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a>: Frontend Developer.</br>
+<a href="https://github.com/OctoplusNinja">Aniruddha Das</a>: Frontend Developer.</br>
 
 # How to contribute?
 
@@ -78,3 +81,6 @@ If you want to contribute to a project and make it better, your help is very wel
   your extra branch(es).
 
 If you have any doubts even though its silly or small, do not hesitate to ask the team for help/guidance. If you haven't joined our [discord](https://discord.gg/druweDMn3s) then join now, since further project discussions will happen on the discord server. Happy Coding!
+
+# Design:
+![Frame 11](https://user-images.githubusercontent.com/65373279/123664843-5aac6780-d855-11eb-8314-604321952d5e.png)
