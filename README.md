@@ -55,18 +55,11 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/Greeshma2903">M. Greeshma</a>: Frontend Developer. </br>
 <a href="https://github.com/Avni1802">Avni Agrawal</a>: FullStack Developer. </br>
 <a href="https://github.com/lostgirljourney">Falguni Sarkar</a>: Frontend Developer. </br>
-<<<<<<< HEAD
-<a href="https://github.com/itsdeekay">Deepak Kumar</a> : Fullstack Developer.</br>
-<a href="https://github.com/ASLManasa">A.S.L.Manasa</a> : Frontend Developer.</br>
-<a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a> : Frontend Developer.</br>
-<a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a> : Frontend Developer.</br>
-=======
 <a href="https://github.com/itsdeekay">Deepak Kumar</a>: Fullstack Developer.</br>
 <a href="https://github.com/ASLManasa">A.S.L.Manasa</a>: Frontend Developer.</br>
 <a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a>: Frontend Developer.</br>
 <a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a>: Frontend Developer.</br>
 <a href="https://github.com/OctoplusNinja">Aniruddha Das</a>: Frontend Developer.</br>
->>>>>>> 68a0115a0a94b0511c8a4c2f77ca75d4c7f30360
 
 # How to contribute?
 
