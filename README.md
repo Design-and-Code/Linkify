@@ -60,6 +60,7 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a>: Frontend Developer.</br>
 <a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a>: Frontend Developer.</br>
 <a href="https://github.com/OctoplusNinja">Aniruddha Das</a>: Frontend Developer.</br>
+<a href="https://github.com/Mahich123">Mahi Chowdhury</a>: Frontend Developer.</br>
 
 # How to contribute?
 
