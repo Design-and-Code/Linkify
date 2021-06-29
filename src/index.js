@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import App from './pages/HomePage/app';
-import Account from './pages/Account/accounts';
+import App from './pages/HomePage';
+import Account from './pages/Account';
 
 function Main(){
     return(
