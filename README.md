@@ -83,5 +83,7 @@ If you want to contribute to a project and make it better, your help is very wel
 
 If you have any doubts even though its silly or small, do not hesitate to ask the team for help/guidance. If you haven't joined our [discord](https://discord.gg/druweDMn3s) then join now, since further project discussions will happen on the discord server. Happy Coding!
 
+# [Figma Link](https://www.figma.com/file/H98Z5ufdXcK0zOJwjqnXrW/Linkify?node-id=59%3A0)
+
 # Design:
 ![Frame 11](https://user-images.githubusercontent.com/65373279/123664843-5aac6780-d855-11eb-8314-604321952d5e.png)
