@@ -4,7 +4,7 @@ import HeroSection from "../../components/HomePage/herosection/herosection";
 import "./HomePageGlobals.css";
 
 export default function App() {
-	const [colorMode, setcolorMode] = useState(false);
+	const [colorMode, setcolorMode] = useState(true);
 
 	return (
 		<div

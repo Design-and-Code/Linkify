@@ -31,10 +31,11 @@
 	font-weight: 600;
 	font-size: clamp(3rem, 6vw, 5rem);
 	text-align: center;
+	line-height: 1.05;
 	z-index: 1;
 }
 #heroContent > p {
-	margin-top: 1rem;
+	margin-top: 1.7rem;
 	font-family: Poppins;
 	font-weight: 400;
 	font-size: clamp(1.2rem, 2vw, 1.7rem);
@@ -57,6 +58,6 @@
 }
 #heroContent > #placeHolder1665 {
 	margin-top: 5.125rem;
-	width: min(90%, 42.5rem);
+	width: min(85%, 42.5rem);
 	z-index: 1;
 }
