@@ -1,0 +1,62 @@
+#heroSection {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	position: relative;
+}
+#rightBgCircle {
+	position: absolute;
+	right: 0;
+	top: min(6vw, 5rem);
+	width: clamp(7rem, 20vw, 14rem);
+}
+#leftBgCircle {
+	position: absolute;
+	left: 0;
+	bottom: min(6vw, 5rem);
+	width: clamp(7rem, 20vw, 14rem);
+	rotate: 180deg;
+}
+#heroContent {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-inline: 0.5rem;
+}
+
+#heroContent > h1 {
+	font-family: Nunito;
+	font-weight: 600;
+	font-size: clamp(3rem, 6vw, 5rem);
+	text-align: center;
+	z-index: 1;
+}
+#heroContent > p {
+	margin-top: 1rem;
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: clamp(1.2rem, 2vw, 1.7rem);
+	width: min(90%, 45ch);
+	text-align: center;
+	z-index: 1;
+}
+#heroContent > a {
+	margin-top: 3rem;
+	color: white;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: clamp(1.4rem, 5vw, 1.7rem);
+	line-height: 27px;
+	text-align: center;
+	padding: 10px 20px;
+	background-color: #4643c3;
+	text-decoration: none;
+	border-radius: 8px;
+}
+#heroContent > #placeHolder1665 {
+	margin-top: 5.125rem;
+	width: min(90%, 42.5rem);
+	z-index: 1;
+}
