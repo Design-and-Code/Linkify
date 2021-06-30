@@ -9,9 +9,7 @@ export default function App() {
 	return (
 		<div
 			style={
-				colorMode
-					? { backgroundColor: "#000" }
-					: { backgroundColor: "#fff" }
+				colorMode ? { backgroundColor: "#000" } : { backgroundColor: "#fff" }
 			}
 		>
 			<HeroSection colorMode={colorMode} />
