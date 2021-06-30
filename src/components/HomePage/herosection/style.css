@@ -29,7 +29,7 @@
 #heroContent > h1 {
 	font-family: Nunito;
 	font-weight: 600;
-	font-size: clamp(3rem, 6vw, 5rem);
+	font-size: clamp(3.2rem, 7vw, 5.5rem);
 	text-align: center;
 	line-height: 1.05;
 	z-index: 1;
@@ -38,7 +38,7 @@
 	margin-top: 1.7rem;
 	font-family: Poppins;
 	font-weight: 400;
-	font-size: clamp(1.2rem, 2vw, 1.7rem);
+	font-size: clamp(1.3rem, 3vw, 2rem);
 	width: min(90%, 45ch);
 	text-align: center;
 	z-index: 1;
@@ -48,16 +48,20 @@
 	color: white;
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: clamp(1.4rem, 5vw, 1.7rem);
+	font-size: clamp(1.4rem, 5vw, 2rem);
 	line-height: 27px;
 	text-align: center;
 	padding: 10px 20px;
 	background-color: #4643c3;
 	text-decoration: none;
 	border-radius: 8px;
+	transition: transform 0.2s ease-out;
+}
+#heroContent > a:hover {
+	transform: scale(1.1);
 }
 #heroContent > #placeHolder1665 {
 	margin-top: 5.125rem;
-	width: min(85%, 42.5rem);
+	width: min(85%, 50rem);
 	z-index: 1;
 }
