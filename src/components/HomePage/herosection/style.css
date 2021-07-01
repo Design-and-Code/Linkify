@@ -29,39 +29,44 @@
 #heroContent > h1 {
 	font-family: Nunito;
 	font-weight: 600;
-	font-size: clamp(3.2rem, 7vw, 5.5rem);
+	font-size: clamp(3.2rem, 7vw, 5rem);
 	text-align: center;
 	line-height: 1.05;
-	z-index: 1;
 }
 #heroContent > p {
 	margin-top: 1.7rem;
 	font-family: Poppins;
 	font-weight: 400;
-	font-size: clamp(1.3rem, 3vw, 2rem);
+	font-size: clamp(1.3rem, 3vw, 1.8rem);
 	width: min(90%, 45ch);
 	text-align: center;
-	z-index: 1;
 }
 #heroContent > a {
 	margin-top: 3rem;
 	color: white;
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: clamp(1.4rem, 5vw, 2rem);
+	font-size: clamp(1.4rem, 5vw, 1.8rem);
 	line-height: 27px;
 	text-align: center;
-	padding: 10px 20px;
+	padding: 12px 25px;
 	background-color: #4643c3;
 	text-decoration: none;
 	border-radius: 8px;
 	transition: transform 0.2s ease-out;
 }
+@media only screen and (min-width: 500px) {
+	#heroContent > a {
+		padding: 17px 38px;
+	}
+}
 #heroContent > a:hover {
 	transform: scale(1.1);
 }
-#heroContent > #placeHolder1665 {
-	margin-top: 5.125rem;
-	width: min(85%, 50rem);
+.top-1 {
 	z-index: 1;
+}
+#placeHolder1665 {
+	margin-top: 5.125rem;
+	width: min(85%, 45rem);
 }

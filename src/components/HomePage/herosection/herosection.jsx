@@ -16,12 +16,14 @@ const herosection = ({ colorMode }) => {
 				id="heroContent"
 				style={colorMode ? { color: "#fff" } : { color: "#000" }}
 			>
-				<h1>All your links in one place</h1>
-				<p>
+				<h1 className="top-1">All your links in one place</h1>
+				<p className="top-1">
 					The only link you'll ever need to connect with everyone in the world.
 				</p>
-				<a href="/account">Get Started</a>
-				<img id="placeHolder1665" src={placeHolder} alt="" />
+				<a href="/account" className="top-1">
+					Get Started
+				</a>
+				<img id="placeHolder1665" className="top-1" src={placeHolder} alt="" />
 			</div>
 		</div>
 	);

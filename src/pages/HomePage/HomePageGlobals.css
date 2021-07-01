@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins:wght@400;500&display=swap");
+:root {
+	--transition-onload: 0s;
+}
+
 *,
 *::after,
 *::before {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	transition-property: color, background-color;
+	transition-duration: var(--transition-onload);
 }
 body {
 	overflow-x: hidden;
