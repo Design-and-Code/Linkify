@@ -8,13 +8,13 @@
 	position: absolute;
 	right: 0;
 	top: min(6vw, 5rem);
-	width: clamp(7rem, 20vw, 14rem);
+	width: clamp(7rem, 12vw, 14rem);
 }
 #leftBgCircle {
 	position: absolute;
 	left: 0;
 	bottom: min(6vw, 5rem);
-	width: clamp(7rem, 20vw, 14rem);
+	width: clamp(7rem, 12vw, 14rem);
 	rotate: 180deg;
 }
 #heroContent {
@@ -29,7 +29,7 @@
 #heroContent > h1 {
 	font-family: Nunito;
 	font-weight: 600;
-	font-size: clamp(3.2rem, 7vw, 5rem);
+	font-size: clamp(3.2rem, 7vw, 4.5rem);
 	text-align: center;
 	line-height: 1.05;
 }
@@ -37,7 +37,7 @@
 	margin-top: 1.7rem;
 	font-family: Poppins;
 	font-weight: 400;
-	font-size: clamp(1.3rem, 3vw, 1.8rem);
+	font-size: clamp(1.3rem, 3vw, 1.5rem);
 	width: min(90%, 45ch);
 	text-align: center;
 }
@@ -46,7 +46,7 @@
 	color: white;
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: clamp(1.4rem, 5vw, 1.8rem);
+	font-size: clamp(1.4rem, 5vw, 1.6rem);
 	line-height: 27px;
 	text-align: center;
 	padding: 12px 25px;
@@ -62,7 +62,4 @@
 }
 #heroContent > a:hover {
 	transform: scale(1.1);
-}
-.top-1 {
-	z-index: 1;
 }

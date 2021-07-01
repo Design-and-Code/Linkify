@@ -1,0 +1,43 @@
+#header {
+	margin-top: 1.5rem;
+	width: min(90%, 1600px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo {
+	font-family: Nunito;
+	font-weight: 700;
+	font-size: clamp(2.5rem, 6vw, 3rem);
+}
+.btnHeader {
+	background-color: transparent;
+	width: clamp(7rem, 25vw, 10rem);
+	height: 3.4rem;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: clamp(1.3rem, 3.5vw, 1.7rem);
+
+	border-radius: 8px;
+	border: solid #4643c3;
+	color: #fff;
+	text-decoration: none;
+	display: grid;
+	place-items: center;
+}
+#linkContainer {
+	display: flex;
+	justify-content: center;
+	gap: min(4vw, 3rem);
+	flex-wrap: wrap;
+	margin-left: 2rem;
+}
+@media only screen and (max-width: 870px) {
+	.btnHeader {
+		height: 2.8rem;
+	}
+	#header {
+		width: 95%;
+	}
+}
