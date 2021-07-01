@@ -23,7 +23,9 @@ const herosection = ({ colorMode }) => {
 				<a href="/account" className="top-1">
 					Get Started
 				</a>
-				<img id="placeHolder1665" className="top-1" src={placeHolder} alt="" />
+				<div className="top-1 cardDesign ">
+					<img src={placeHolder} alt="" />
+				</div>
 			</div>
 		</div>
 	);
