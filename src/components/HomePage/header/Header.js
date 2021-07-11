@@ -7,6 +7,7 @@ export default function Header() {
   const Container = styled.div`
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
     margin-top: 29px;
     margin-right: 112px;
     margin-left: 128px;
