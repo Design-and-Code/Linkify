@@ -13,10 +13,10 @@ export default function Header() {
     @media (max-width: 1200px) {
       //insert code later if required.
     }
-    @media (max-width: 768px) {
-      margin-top: 10px;
-      margin-right: 10px;
-      margin-left: 10px;
+    @media (max-width: 1050px) {
+      margin-top: 15px;
+      margin-right: 15px;
+      margin-left: 15px;
     }
   `;
   const LogoText = styled.div`

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/HomePage/header/Header.js";
+import Header from "../../components/HomePage/header/Header";
 import HeroSection from "../../components/HomePage/herosection/herosection";
 
 export default function App() {

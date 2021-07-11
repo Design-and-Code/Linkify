@@ -29,7 +29,11 @@ div.heroSec {
   word-wrap: normal;
   text-align: center;
   margin: 0 auto;
-  padding-top: 216px;
+}
+
+div.introSec {
+  padding-top: 200px;
+  padding-bottom: 80px;
 }
 
 h1.titleP {
@@ -58,7 +62,7 @@ button.start {
   line-height: 27px;
   background: #4643c3;
   border-radius: 8px;
-  margin: 35px 0 80px;
+  margin: 35px 0 0;
   cursor: pointer;
 }
 
@@ -87,6 +91,11 @@ img.lowerimg {
 }
 
 @media screen and (max-width: 790px) {
+  div.introSec {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
   h1.titleP {
     font-size: 48px;
     line-height: 67px;
@@ -136,7 +145,11 @@ img.lowerimg {
     height: 221px;
   }
 
-  .titleP,
+  h1.titleP {
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
   p.about {
     max-width: 95%;
   }
