@@ -16,13 +16,13 @@ const Home =()=>{
                 <div class="red">
                     <div class="green">
                         <div class="blue"><span class="dot-l" id='ld'><div class="green"><img src={icon} alt="" id='ldot'/></div> </span>
-                            <div class="red"><Link to='/features1'> <h3 id='l'>  Feature 1 </h3></Link><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
+                            <div class="red"> <h3 id='l'>  Feature 1 </h3><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
                         </div>
                     </div>
 
                     <div class="green">
                         <div class="blue"><span class="dot-l" id='ld'><div class="green"><img src={icon} alt="" id='ldot'/></div> </span>
-                            <div class="red"><Link to='/features2'><h3 id='l'> Feature 2</h3></Link><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
+                            <div class="red"><h3 id='l'> Feature 2</h3><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
                         </div>
                     </div>
                 </div>
@@ -39,13 +39,13 @@ const Home =()=>{
             <div class="red">
                     <div class="green"> 
                     <div class="blue"><span class="dot-r" id='rd'><div class="green"><img src={icon} alt="" id='rdot'/></div> </span>
-                        <div class="red"><Link to='/features3'><h3 id='r'>Feature 3</h3></Link><p id='rp'>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                          	
+                        <div class="red"><h3 id='r'>Feature 3</h3><p id='rp'>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                          	
                         </div>
                     </div>
                     
                     <div class="green"> 
                         <div class="blue"><span class="dot-r" id='rd'><div class="green"><img src={icon} alt="" id='rdot'/></div> </span> 
-                        <div class="red"><Link to='/features4'><h3 id='r'> Feature 4</h3></Link><p id='rp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloremque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                              
+                        <div class="red"><h3 id='r'> Feature 4</h3><p id='rp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloremque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                              
                         </div>
                     </div>
             </div>
