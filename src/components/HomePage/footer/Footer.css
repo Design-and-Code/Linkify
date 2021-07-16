@@ -1,9 +1,9 @@
 body {
-    font-family: 'Nunito', sans-serif;
     margin: 0px;
     background: rgba(246, 250, 255, 1);
 }
 .footer {
+    font-family: 'Nunito', sans-serif;
     height: 700px;
     position: relative;
     display: flex;
@@ -116,17 +116,15 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1150px) {
+    .left-prop, .right-prop {
+        opacity: 0.5;
+    }
+}
+
 @media screen and (max-width: 750px) {
-    .left-prop {
-        display: none;
-    }
-
-    .right-prop {
-        display: none;
-    }
-
     .join-our-community p {
-        width: 95%;
+        width: 90%;
     }
 
     .footer-socials {
@@ -140,5 +138,29 @@ body {
 
     .footer-socials a {
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .left-prop {
+        display: none;
+    }
+
+    .right-prop {
+        display: none;
+    }
+
+    .join-our-community h1 {
+        font-size: 42px;
+    }
+
+    .join-our-community p {
+        font-size: 16px;
+    }
+
+    .join-button {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
     }
 }
