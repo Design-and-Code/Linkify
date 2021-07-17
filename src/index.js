@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import App from './pages/HomePage';
 import Account from './pages/Account';
 
+
 function Main(){
     return(
         <Router>
