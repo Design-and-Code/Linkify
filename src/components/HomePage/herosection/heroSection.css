@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.randomDesign {
+  position: relative;
+  max-width: 100%;
+  z-index: -500;
+}
+
+img.leftimg {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  width: 250px;
+}
+
+img.rightimg {
+  position: absolute;
+  right: 0;
+  top: -300px;
+  width: 250px;
+}
+
+div.heroSec {
+  word-wrap: normal;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.introSec {
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+h1.titleP {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 87px;
+  margin: 0;
+}
+
+p.about {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 10px auto 0;
+  word-wrap: normal;
+}
+
+button.start {
+  width: 144px;
+  height: 47px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  background: #4643c3;
+  border-radius: 8px;
+  margin: 35px 0 0;
+  cursor: pointer;
+}
+
+button.start:hover {
+  box-shadow: 0 2px 3px rgb(70, 67, 195, 0.5);
+}
+
+div.heroImgSec {
+  background-image: url(./assets/changepic.png);
+  background-size: cover;
+  width: 697px;
+  height: 438.39px;
+  margin: 0 auto;
+  border-radius: 1.25rem;
+  position: relative;
+  margin-bottom: 190px;
+  display: block;
+}
+
+img.lowerimg {
+  width: 697px;
+  height: 438.39px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+@media screen and (max-width: 790px) {
+  div.introSec {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
+  h1.titleP {
+    font-size: 48px;
+    line-height: 67px;
+  }
+
+  p.about {
+    width: 500px;
+  }
+
+  div.heroImgSec,
+  img.lowerimg {
+    width: 497px;
+    height: 313px;
+  }
+
+  img.lowerimg {
+    top: 10px;
+    left: 10px;
+  }
+
+  img.leftimg,
+  img.rightimg {
+    width: 150px;
+  }
+
+  img.rightimg {
+    top: -150px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  h1.titleP {
+    font-size: 40px;
+    line-height: 67px;
+  }
+
+  p.about,
+  button.start {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.heroImgSec,
+  img.lowerimg {
+    width: 350px;
+    height: 221px;
+  }
+
+  h1.titleP {
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  p.about {
+    max-width: 95%;
+  }
+
+  img.lowerimg {
+    top: 7.5px;
+    left: 7.5px;
+  }
+
+  img.leftimg,
+  img.rightimg {
+    width: 100px;
+  }
+
+  img.rightimg,
+  img.leftimg {
+    display: none;
+  }
+}
