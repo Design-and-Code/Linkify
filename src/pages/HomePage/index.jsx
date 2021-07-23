@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../../components/HomePage/header/Header.js'
 import Home from '../../components/HomePage/featuresec/featuresec'
 import HeroSection from "../../components/HomePage/herosection/herosection";
+import Feature from "../../components/HomePage/features1/feature1"
 import Footer from '../../components/HomePage/footer/footer.js';
 
 export default function App(){
@@ -15,7 +16,9 @@ export default function App(){
             start="Get Started"
             />
             <Home />
+            <Feature/>
             <Footer />
+
         </div>
     )
 }
