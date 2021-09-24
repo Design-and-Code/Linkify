@@ -90,6 +90,9 @@
     margin-bottom: 1.25rem;
     color: var(--clr-grey-5);
   }
+  #ip{
+    object-fit: contain;
+  }
   @media screen and (min-width: 1296px) {
     h1 {
       font-size: 4rem;
@@ -150,7 +153,7 @@
     width: 495px;
     height: 54px;
     /* top: 1247px; */
-    margin-left: 33%;
+    margin: auto;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -162,6 +165,9 @@
       }
       .container { 
         display: flex;
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
         }
       .red {
         display: flex;
@@ -174,7 +180,8 @@
       }
       .blue {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        
       }
       .container div {
         font-size: 5vw;
@@ -187,24 +194,19 @@
         font-size: 20px;
       }
       
-      .dot-l {
-      position: absolute;
+      .dot-l {  
       width: 90px;
       height: 90px;
       border-radius: 50%;
-      left: 450px;
       background: #4643C3;
       transform: matrix(-1, 0, 0, 1, 0, 0);
       }
       .dot-r {
-      position: absolute;
       width: 90px;
       height: 90px;
       border-radius: 50%;
-      right: 450px;
       background: #4643C3;
       transform: matrix(-1, 0, 0, 1, 0, 0);
-    
       }
     
       #l{
@@ -245,13 +247,25 @@
   
   @media screen and (max-width: 1296px) {
       #ip{
-          margin-left: 29%;
+         
       }
       #ldot{
           display: none;
       }
       #rdot{
         display: none;
+      }
+      .container{
+        text-align: center;    
+        margin: 0% 10%;
+      }
+      .section-header{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 5%;
+      }
+      .green{
+        margin: 10% 0%;
       }
   }
 
