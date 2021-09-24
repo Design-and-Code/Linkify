@@ -15,14 +15,31 @@ const Home =()=>{
               {/* container left */}
                 <div class="red">
                     <div class="green">
-                        <div class="blue"><span class="dot-l" id='ld'><div class="green"><img src={icon} alt="" id='ldot'/></div> </span>
-                            <div class="red"> <h3 id='l'>  Feature 1 </h3><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
+                        <div class="blue">
+                            <div class="red"> 
+                                <h3 id='l'>  Feature 1 </h3>
+                                <p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p>
+                            </div>
+                            <span class="dot-l" id='ld'>
+                                <div class="green">
+                                    <img src={icon} alt="" id='ldot'/></div> 
+                            </span>
+                            
                         </div>
                     </div>
 
                     <div class="green">
-                        <div class="blue"><span class="dot-l" id='ld'><div class="green"><img src={icon} alt="" id='ldot'/></div> </span>
-                            <div class="red"><h3 id='l'> Feature 2</h3><p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>
+                        <div class="blue">
+                            <div class="red">
+                                <h3 id='l'> Feature 2</h3>
+                                <p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p>
+                            </div>
+                            <span class="dot-l" id='ld'>
+                                <div class="green">
+                                    <img src={icon} alt="" id='ldot'/>
+                                </div>
+                            </span>
+                            
                         </div>
                     </div>
                 </div>

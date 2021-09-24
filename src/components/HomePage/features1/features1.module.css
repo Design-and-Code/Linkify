@@ -1,16 +1,25 @@
 .detailedFeatureSection {
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1500px;
+
+  
 }
 .row {
-  margin-top: 150px;
+
   display: flex;
+  justify-content: space-between;
+  margin: 150px 10%;
+  flex-wrap: wrap;
 }
 .row div {
   width: 49.2%;
-  padding: 0 50px;
 }
 .row:last-child {
+  margin: 10px 10% !important;
   flex-direction: row-reverse;
 }
 .detailedFeatureSection h3 {
@@ -28,8 +37,16 @@
 }
 .row div img {
   width: 430px;
+  object-fit: contain;
 }
+.imgCust{
+  text-align: end;
 
+}
+.imgDash{
+  text-align: start;
+  
+}
 @media only screen and (max-width: 1200px) {
   .row div img {
     width: 400px;
@@ -42,10 +59,7 @@
   .row {
     margin-top: 100px;
   }
-  .detailedFeatureSection {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
+  
   .row div img {
     width: 120%;
   }
