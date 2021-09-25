@@ -7,7 +7,7 @@ const detailedFeature = () => {
   return (
     <section className={styles.detailedFeatureSection}>
       <div className={cx(styles.row, styles.dashboard)}>
-        <div>
+        <div className={styles.imgDash}>
           <img src={img} alt="" />
         </div>
         <div>
@@ -21,7 +21,7 @@ const detailedFeature = () => {
         </div>
       </div>
       <div className={cx(styles.row, styles.customizable)}>
-        <div>
+        <div className={styles.imgCust}>
           <img src={img} alt="" />
         </div>
         <div>
