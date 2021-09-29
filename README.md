@@ -7,6 +7,31 @@
 
 ![Linkify Banner](https://user-images.githubusercontent.com/63140632/135325523-c52ddaa5-f424-488d-9139-26628ed7dc16.png)
 
+## [Design-and-Code](https://discord.gg/druweDMn3s)
+
+Welcome to Design & Code where anyone interested in designing and coding can connect and interact with fellow peers from all over the globe and not only learn but also collaborate on various projects!
+
+<p align="left">
+<a href="mailto:designandcode.community@gmail.com" style="text-decoration:none">
+  <img height="30" src = "https://img.shields.io/badge/gmail-c14438?&style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+  <a href="https://discord.gg/druweDMn3s" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/discord-darkblue.svg?&style=for-the-badge&logo=discord&logoColor=white" />
+</a>
+<a href="http://designandcode.us/" style="text-decoration:none">
+  <img height="30" src = "https://img.shields.io/badge/website-c14438?&style=for-the-badge&logo=internet&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/company/designandcode" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/Design-and-Code" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/Github-grey.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+</a>
+<a href="https://www.instagram.com/designandcode.community" style="text-decoration:none">
+  <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
+</a>
+<br />
+
 ## What is Linkify?
 
 A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
@@ -66,31 +91,6 @@ root
 
 ## Design
 ![Frame 11](https://user-images.githubusercontent.com/65373279/123664843-5aac6780-d855-11eb-8314-604321952d5e.png)
-
-## [Design-and-Code](https://discord.gg/druweDMn3s)
-
-Welcome to Design & Code where anyone interested in designing and coding can connect and interact with fellow peers from all over the globe and not only learn but also collaborate on various projects!
-
-<p align="left">
-<a href="mailto:designandcode.community@gmail.com" style="text-decoration:none">
-  <img height="30" src = "https://img.shields.io/badge/gmail-c14438?&style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-  <a href="https://discord.gg/druweDMn3s" style="text-decoration:none">
-  <img height="30" src="https://img.shields.io/badge/discord-darkblue.svg?&style=for-the-badge&logo=discord&logoColor=white" />
-</a>
-<a href="http://designandcode.us/" style="text-decoration:none">
-  <img height="30" src = "https://img.shields.io/badge/website-c14438?&style=for-the-badge&logo=internet&logoColor=white">
-</a>
-<a href="https://www.linkedin.com/company/designandcode" style="text-decoration:none">
-  <img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/Design-and-Code" style="text-decoration:none">
-  <img height="30" src="https://img.shields.io/badge/Github-grey.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/designandcode.community" style="text-decoration:none">
-  <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
-</a>
-<br />
 
 ## Contribution Guidelines 🏗
 
