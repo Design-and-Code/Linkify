@@ -1,21 +1,71 @@
 # Linkify - All your Links in one
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Design-and-Code/Linkify/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/Linkify/issues)
+
+![Linkify Banner](https://user-images.githubusercontent.com/63140632/135325523-c52ddaa5-f424-488d-9139-26628ed7dc16.png)
+
 ## What is Linkify?
 
 A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
 
-## Highlights:
+## Highlights
 
 - Easily Customize the looks of your webpage based on your preference.
 - Dashboard Interface with good UI.
 - Have your own custom URL to your page.
-- Open sourced and completely free. Community can keep adding new features and customize it since its open sourced.
+- Open-sourced and completely free. Community can keep adding new features and customize it since it's open-sourced.
 
-## Why this project?:
+## Why this project?
 
-- Everyone needs a website to quickly share which can have all their links together. Which is why an open sourced project can have more customizations and will be completely for free.
+- Everyone needs a website to quickly share which can have all their links together. This is why an open-sourced project can have more customizations and will be completely free.
 - Good project for the community to build as well as use it for themselves. Since making a project which is not much useful for the community is useless.
-- Most of the other platforms have very limited customization and is paid feature.
+- Most of the other platforms have very limited customization and have paid features.
+
+## Folder Structure 📁
+
+```
+root
+├── public
+│   └── favicon.io
+│   └── index.html
+│   └── manifest.json
+│   └── robots.txt
+|
+├── src
+│   ├── components
+│   |   ├── assets
+|   |   |   └── asset files
+|   |   |
+│   |   ├── component
+|   |   |   └── component1.jsx
+|   |   |   └── component2.jsx
+|   |   |
+│   |   └── component
+|   |       └── component1.jsx
+|   |       └── component2.jsx
+|   |
+|   ├── pages
+│   |   ├── page
+|   |   |   └── index.jsx
+|   |   |
+│   |   └── page
+|   |       └── index.jsx
+│   |
+|   └── index.js
+|
+└──  .gitignore
+└──  README.MD
+└──  package-lock.json
+└──  package.json
+```
+
+## [Figma Link](https://www.figma.com/file/H98Z5ufdXcK0zOJwjqnXrW/Linkify?node-id=59%3A0)
+
+## Design
+![Frame 11](https://user-images.githubusercontent.com/65373279/123664843-5aac6780-d855-11eb-8314-604321952d5e.png)
 
 ## [Design-and-Code](https://discord.gg/druweDMn3s)
 
@@ -41,49 +91,93 @@ Welcome to Design & Code where anyone interested in designing and coding can con
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
 <br />
-  
-## Team
 
-<a href="https://github.com/DevrajDC">Devraj Chatribin</a>: Front-end Developer, UI/UX designer. </br>
-<a href="https://github.com/Pseudo-Pythonic">Hardik</a>: Front-end Developer.</br>
-<a href="https://github.com/Prathamkrishna">Pratham Krishna</a>: Full stack, cross-platform/native developer. </br>
+## Contribution Guidelines 🏗
 
-## Contributors
+Want to add your inputs to the repo? We invite you to contribute. 
+To start contributing, follow the below guidelines: 
 
-<a href="https://github.com/priyanshk20">Priyansh Khandelwal</a>: Frontend Developer. </br>
-<a href="https://github.com/nimishjn">Nimish Jain</a>: Frontend Developer. </br>
-<a href="https://github.com/Greeshma2903">M. Greeshma</a>: Frontend Developer. </br>
-<a href="https://github.com/Avni1802">Avni Agrawal</a>: FullStack Developer. </br>
-<a href="https://github.com/lostgirljourney">Falguni Sarkar</a>: Frontend Developer. </br>
-<a href="https://github.com/itsdeekay">Deepak Kumar</a>: Fullstack Developer.</br>
-<a href="https://github.com/ASLManasa">A.S.L.Manasa</a>: Frontend Developer.</br>
-<a href="https://github.com/Barenyakumar">Barenya Kumar Panda</a>: Frontend Developer.</br>
-<a href="https://github.com/KaiserLudwigIV">Max C. Heppner</a>: Frontend Developer.</br>
-<a href="https://github.com/OctoplusNinja">Aniruddha Das</a>: Frontend Developer.</br>
-<a href="https://github.com/Mahich123">Mahi Chowdhury</a>: Frontend Developer.</br>
+**1.**  Fork [this](https://github.com/Design-and-Code/Linkify) repository.
 
-# How to contribute?
+**2.**  Clone your forked copy of the project.
 
-If you want to contribute to a project and make it better, your help is very welcome. Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
+```
+git clone https://github.com/<your_user_name>/Linkify.git
+```
 
-## How to make a clean pull request
+**3.** Navigate to the project directory :file_folder: .
 
-- Create a personal fork of the project on Github.
-- Clone the fork on your local machine. Your remote repo on Github is called `origin`.
-- Add the original repository as a remote called `upstream`.
-- If you created your fork a while ago be sure to pull upstream changes into your local repository.
-- Create a new branch to work on!
-- Implement/fix your feature, comment your code.
-- Follow the code style of the project, including indentation.
-- Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
-- Push your branch to your fork on Github, the remote `origin`.
-- From your fork open a pull request in the correct branch.
-- Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
-  your extra branch(es).
+```
+cd Linkify
+```
 
-If you have any doubts even though its silly or small, do not hesitate to ask the team for help/guidance. If you haven't joined our [discord](https://discord.gg/druweDMn3s) then join now, since further project discussions will happen on the discord server. Happy Coding!
+**4.** Add a reference (remote) to the original repository.
 
-# [Figma Link](https://www.figma.com/file/H98Z5ufdXcK0zOJwjqnXrW/Linkify?node-id=59%3A0)
+```
+git remote add upstream https://github.com/Design-and-Code/Linkify.git
+```
 
-# Design:
-![Frame 11](https://user-images.githubusercontent.com/65373279/123664843-5aac6780-d855-11eb-8314-604321952d5e.png)
+**5.** Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project (updated repository).
+
+```
+git pull upstream main
+```
+
+**7.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+**8.** Perfom your desired changes to the code base.
+
+**9.** Track your changes ✔. 
+
+```
+git add . 
+```
+
+**10.** Commit your changes.
+
+```
+git commit -m "Relevant message"
+```
+
+**11.** Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+**12.** To create a pull request, click on `Compare & pull requests`.
+
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+**14.** Click on `Create pull request`.
+
+
+**15** Voilà! You have made a PR to Linkify 💥. Wait for your submission to be accepted and your PR to be merged.
+
+
+
+## Project Maintainers 🛠
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/DevrajDC"><img alt="" src="https://avatars.githubusercontent.com/u/65373279" width="130px;"><br><sub><b> Devraj Chatribin </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
+  <td align="center"><a href="https://github.com/Pseudo-Pythonic"><img alt="" src="https://avatars.githubusercontent.com/u/73730318" width="130px;"><br><sub><b> Hardik Jaiswal </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
+  <td align="center"><a href="https://github.com/nimishjn"><img alt="" src="https://avatars.githubusercontent.com/u/63140632" width="130px;"><br><sub><b> Nimish Jain </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
+    
+  </tr>
+</tbody></table>
+
+## Our Valuable Contributors 👩‍💻👨‍💻
+<a href="https://github.com/Design-and-Code/Linkify/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Design-and-Code/Linkify" />
+</a>
