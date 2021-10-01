@@ -11,31 +11,31 @@ const Home =()=>{
             <h2>Features</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, quisquam!</p>
         </div>
-        <div class="container">
+        <div className="container">
               {/* container left */}
-                <div class="red">
-                    <div class="green">
-                        <div class="blue">
-                            <div class="red"> 
+                <div className="red">
+                    <div className="green">
+                        <div className="blue">
+                            <div className="red"> 
                                 <h3 id='l'>  Feature 1 </h3>
                                 <p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p>
                             </div>
-                            <span class="dot-l" id='ld'>
-                                <div class="green">
+                            <span className="dot-l" id='ld'>
+                                <div className="green">
                                     <img src={icon} alt="" id='ldot'/></div> 
                             </span>
                             
                         </div>
                     </div>
 
-                    <div class="green">
-                        <div class="blue">
-                            <div class="red">
+                    <div className="green">
+                        <div className="blue">
+                            <div className="red">
                                 <h3 id='l'> Feature 2</h3>
                                 <p id='lp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p>
                             </div>
-                            <span class="dot-l" id='ld'>
-                                <div class="green">
+                            <span className="dot-l" id='ld'>
+                                <div className="green">
                                     <img src={icon} alt="" id='ldot'/>
                                 </div>
                             </span>
@@ -47,21 +47,21 @@ const Home =()=>{
 
 
             {/* container middle */}
-            <div class="green">
+            <div className="green">
                 <img src={phn} alt="" id='ip' />
             </div>
 
 
             {/* container right */}
-            <div class="red">
-                    <div class="green"> 
-                    <div class="blue"><span class="dot-r" id='rd'><div class="green"><img src={icon} alt="" id='rdot'/></div> </span>
-                        <div class="red"><h3 id='r'>Feature 3</h3><p id='rp'>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                          	
+            <div className="red">
+                    <div className="green"> 
+                    <div className="blue"><span className="dot-r" id='rd'><div className="green"><img src={icon} alt="" id='rdot'/></div> </span>
+                        <div className="red"><h3 id='r'>Feature 3</h3><p id='rp'>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                          	
                         </div>
                     </div>
-                    <div class="green"> 
-                        <div class="blue"><span class="dot-r" id='rd'><div class="green"><img src={icon} alt="" id='rdot'/></div> </span> 
-                        <div class="red"><h3 id='r'> Feature 4</h3><p id='rp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloremque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                              
+                    <div className="green"> 
+                        <div className="blue"><span className="dot-r" id='rd'><div className="green"><img src={icon} alt="" id='rdot'/></div> </span> 
+                        <div className="red"><h3 id='r'> Feature 4</h3><p id='rp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloremque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, obcaecati.</p></div>                                              
                         </div>
                     </div>
             </div>

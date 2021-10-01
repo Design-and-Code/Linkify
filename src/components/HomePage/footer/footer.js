@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import leftProp from "./assets/left.svg";
 import rightProp from "./assets/right.svg";
+import { LinkifyContext } from "../../../context";
 import {
   FaDiscord,
   FaGithub,
@@ -13,6 +14,9 @@ import {
 } from "react-icons/fa";
 
 export default function Footer() {
+  const { theme } = React.useContext(LinkifyContext);
+  console.log(theme);
+
   return (
     <div className="footer">
       <div className="join-our-community">
@@ -28,16 +32,25 @@ export default function Footer() {
         <button className="join-button">Get Started</button>
       </div>
 
-      <div className="footer-socials">
-        <a class="social-logo" href="/">
-          Linkify
-        </a>
+      <div className={`footer-socials ${theme}`}>
+        <div className="social-logo">
+          <a
+            className={`social-logo ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
+            href="/"
+          >
+            Linkify
+          </a>
+        </div>
         <div className="socials">
           <a
             href="https://discord.gg/druweDMn3s"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaDiscord />
           </a>
@@ -45,7 +58,9 @@ export default function Footer() {
             href="https://github.com/Design-and-Code"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaGithub />
           </a>
@@ -53,7 +68,9 @@ export default function Footer() {
             href="https://www.linkedin.com/company/designandcode/"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaLinkedin />
           </a>
@@ -61,7 +78,9 @@ export default function Footer() {
             href="https://twitter.com/DesignandCode3"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaTwitter />
           </a>
@@ -69,7 +88,9 @@ export default function Footer() {
             href="https://www.instagram.com/designandcode.community/"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaInstagram />
           </a>
@@ -77,7 +98,9 @@ export default function Footer() {
             href="https://www.youtube.com/channel/UCd4E0oe8MtnZu_48WvYeLMw"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaYoutube />
           </a>
@@ -85,7 +108,9 @@ export default function Footer() {
             href="https://designandcode.us/"
             target="_blank"
             rel="noreferrer"
-            className="social-button"
+            className={`social-button ${
+              theme === "light-theme" ? "lightfont" : "darkfont"
+            }`}
           >
             <FaGlobe />
           </a>

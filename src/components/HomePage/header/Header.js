@@ -2,8 +2,22 @@ import React from "react";
 import styled from "styled-components";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { LinkifyContext } from "../../../context";
 
 export default function Header() {
+  const { theme, setTheme } = React.useContext(LinkifyContext);
+  console.log(theme, setTheme);
+
+  const handleSubmit = () => {
+    if (theme === "light-theme") setTheme("dark-theme");
+    else setTheme("light-theme");
+  };
+
+  React.useEffect(() => {
+    document.body.classList = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
   const Container = styled.div`
     display: flex;
     justify-content: space-between;
@@ -49,6 +63,11 @@ export default function Header() {
       color: black;
     }
   `;
+
+  const Toggle = styled(LeftButton)`
+    transition 
+  
+  `;
   const StyledLink = styled(Link)`
     text-decoration: none;
     color: black;
@@ -57,14 +76,26 @@ export default function Header() {
   return (
     <Container>
       <StyledLink to="/">
-        <LogoText>Linkify</LogoText>
+        <LogoText className={theme}>Linkify</LogoText>
       </StyledLink>
       <ButtonGroup>
         <StyledLink to="/account">
-          <LeftButton>Login</LeftButton>
+          <LeftButton
+            className={theme === "light-theme" ? "lightfont" : "darkfont"}
+          >
+            Login
+          </LeftButton>
         </StyledLink>
         <StyledLink to="/account">
           <RightButton>Sign Up</RightButton>
+        </StyledLink>
+        <StyledLink>
+          <Toggle
+            onClick={handleSubmit}
+            className={theme === "light-theme" ? "lightfont" : "darkfont"}
+          >
+            Toggle
+          </Toggle>
         </StyledLink>
       </ButtonGroup>
     </Container>

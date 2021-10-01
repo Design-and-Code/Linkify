@@ -5,11 +5,8 @@
   flex-direction: column;
   justify-content: center;
   max-width: 1500px;
-
-  
 }
 .row {
-
   display: flex;
   justify-content: space-between;
   margin: 150px 10%;
@@ -39,13 +36,11 @@
   width: 430px;
   object-fit: contain;
 }
-.imgCust{
+.imgCust {
   text-align: end;
-
 }
-.imgDash{
+.imgDash {
   text-align: start;
-  
 }
 @media only screen and (max-width: 1200px) {
   .row div img {
@@ -59,7 +54,7 @@
   .row {
     margin-top: 100px;
   }
-  
+
   .row div img {
     width: 120%;
   }
@@ -88,4 +83,23 @@
   .detailedFeatureSection h3 {
     font-size: 32px;
   }
+}
+
+/* for dark mode */
+.light-theme {
+  background-color: #fff;
+  color: black;
+}
+
+.lightfont {
+  color: black !important;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #fff;
+}
+
+.darkfont {
+  color: white !important;
 }
