@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Please add screenshots (if applicable)
+      label: Please add screenshots, if applicable (Drag & Drop your ss below)
     validations:
       required: false
   - type: textarea
