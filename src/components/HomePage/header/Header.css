@@ -1,3 +1,21 @@
 body {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: black;
+}
+
+.lightfont {
+  color: black !important;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #fff;
+}
+
+.darkfont {
+  color: white !important;
 }

@@ -45,7 +45,7 @@
   width: 750px;
   font-weight: 400;
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 40px;
@@ -188,4 +188,37 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-socials {
+    justify-content: center;
+  }
+  .social-logo {
+    display: none;
+  }
+  .socials {
+    width: 100vw !important;
+    text-align: center;
+    justify-content: center !important;
+  }
+}
+
+/* for dark mode */
+.light-theme {
+  background-color: #fff;
+  color: black;
+}
+
+.lightfont {
+  color: black !important;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #fff;
+}
+
+.darkfont {
+  color: white !important;
 }
