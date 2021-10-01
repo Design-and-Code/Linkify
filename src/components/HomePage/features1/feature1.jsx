@@ -25,7 +25,7 @@ const detailedFeature = () => {
           <img src={img} alt="" />
         </div>
         <div>
-          <h3>Highly Customizable</h3>
+          <h3 className={styles.featureHead}>Highly Customizable</h3>
           <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia duis enim velit mollit. Amet minim mollit non
