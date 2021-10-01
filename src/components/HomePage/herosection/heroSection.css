@@ -73,8 +73,8 @@ button.start:hover {
 div.heroImgSec {
   background-image: url(./assets/changepic.png);
   background-size: cover;
-  width: 697px;
-  height: 438.39px;
+  width: 51.02489019033675vw;
+  height: 32.09297218155198vw;
   margin: 0 auto;
   border-radius: 1.25rem;
   position: relative;
@@ -83,8 +83,8 @@ div.heroImgSec {
 }
 
 img.lowerimg {
-  width: 697px;
-  height: 438.39px;
+  width: 51.02489019033675vw;
+  height: 32.09297218155198vw;
   position: absolute;
   top: 15px;
   left: 15px;
@@ -106,12 +106,12 @@ img.lowerimg {
     width: 500px;
   }
 
-  div.heroImgSec,
+ /* div.heroImgSec,
   img.lowerimg {
-    width: 497px;
-    height: 313px;
+    width: 36.38360175695461vw;
+    height: 22.913616398243047vw;
   }
-
+*/
   img.lowerimg {
     top: 10px;
     left: 10px;
@@ -142,8 +142,8 @@ img.lowerimg {
 @media screen and (max-width: 550px) {
   div.heroImgSec,
   img.lowerimg {
-    width: 350px;
-    height: 221px;
+    width: 71.02489019033675vw;
+  height: 52.09297218155198vw;
   }
 
   h1.titleP {
@@ -156,7 +156,7 @@ img.lowerimg {
   }
 
   img.lowerimg {
-    top: 7.5px;
+    top: 16.5px;
     left: 7.5px;
   }
 

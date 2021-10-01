@@ -71,6 +71,10 @@
     margin-top: 30px;
   }
 }
+.featureHead{
+  overflow-wrap:break-word;
+  hyphens: auto;
+}
 @media only screen and (max-width: 800px) {
   .row {
     margin-top: 75px;
