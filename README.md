@@ -1,8 +1,8 @@
 # Linkify - All your Links in one
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Design-and-Code/Linkify/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/Design-and-Code/Linkify/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/Linkify/issues)
 
 ![Linkify Banner](https://user-images.githubusercontent.com/63140632/135325523-c52ddaa5-f424-488d-9139-26628ed7dc16.png)
@@ -48,6 +48,19 @@ A site that lets you include all your links in a single-page website with easy c
 - Everyone needs a website to quickly share which can have all their links together. This is why an open-sourced project can have more customizations and will be completely free.
 - Good project for the community to build as well as use it for themselves. Since making a project which is not much useful for the community is useless.
 - Most of the other platforms have very limited customization and have paid features.
+
+## Tech Stack used
+
+<div align="left">
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+</div>
 
 ## Folder Structure 📁
 
@@ -171,7 +184,11 @@ git push -u origin <your_branch_name>
 <table>
   <tbody><tr>
     <td align="center"><a href="https://github.com/DevrajDC"><img alt="" src="https://avatars.githubusercontent.com/u/65373279" width="130px;"><br><sub><b> Devraj Chatribin </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
+  
+  <td align="center"><a href="https://github.com/Prathamkrishna"><img alt="" src="https://avatars.githubusercontent.com/u/34184758?v=4" width="130px;"><br><sub><b>  Pratham Krishna </b></sub></a><br><a href="https://github.com/Prathamkrishna" title="Code">💻 </a></td> </a></td>
+  
   <td align="center"><a href="https://github.com/Pseudo-Pythonic"><img alt="" src="https://avatars.githubusercontent.com/u/73730318" width="130px;"><br><sub><b> Hardik Jaiswal </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
+  
   <td align="center"><a href="https://github.com/nimishjn"><img alt="" src="https://avatars.githubusercontent.com/u/63140632" width="130px;"><br><sub><b> Nimish Jain </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
     
   </tr>

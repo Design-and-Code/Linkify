@@ -25,6 +25,7 @@ export default function Header() {
     margin-top: 29px;
     margin-right: 112px;
     margin-left: 128px;
+    flex-wrap:wrap;
     @media (max-width: 1200px) {
       //insert code later if required.
     }
@@ -32,6 +33,9 @@ export default function Header() {
       margin-top: 15px;
       margin-right: 15px;
       margin-left: 15px;
+    }
+    @media (max-width: 300px) {
+      justify-content:center;
     }
   `;
   const LogoText = styled.div`
@@ -41,6 +45,7 @@ export default function Header() {
   const ButtonGroup = styled.div`
     display: flex;
     cursor: pointer;
+    flex-wrap:wrap;
   `;
   const LeftButton = styled.div`
     margin-right: 5px;

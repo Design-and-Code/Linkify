@@ -14,6 +14,10 @@
   align-items: center;
   justify-content: center;
 }
+.join-our-community > h1 {
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
 
 .left-prop {
   position: absolute;
@@ -163,6 +167,21 @@
     width: 120px;
     height: 40px;
     font-size: 16px;
+  }
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-socials .socials {
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer-socials .social-logo {
+    display: none;
   }
 
   .footer-socials .socials {
