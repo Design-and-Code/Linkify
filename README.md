@@ -35,10 +35,20 @@ Welcome to Design & Code where anyone interested in designing and coding can con
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
 <br />
+  
+---
+
+<h3 align="center"> <b>Join our Community and feel free to drop your questions on</h3>
+<p align="center">
+   <a href="https://discord.gg/druweDMn3s">
+   <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
+</p>
+
+---
 
 ## What is Linkify?
 
-A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
+> A site that lets you include all your links in a single-page website with easy customizations. It gives you your own URL to share with anyone you want on the internet.
 
 ## Highlights
 
