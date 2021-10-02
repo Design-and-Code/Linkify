@@ -28,6 +28,9 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 <a href="https://github.com/Design-and-Code" style="text-decoration:none">
   <img height="30" src="https://img.shields.io/badge/Github-grey.svg?&style=for-the-badge&logo=Github&logoColor=white" />
 </a>
+<a href="https://twitter.com/DesignandCode3" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/Twitter-31a2f2.svg?&style=for-the-badge&logo=twitter&logoColor=white">
+</a>
 <a href="https://www.instagram.com/designandcode.community" style="text-decoration:none">
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
@@ -54,6 +57,8 @@ A site that lets you include all your links in a single-page website with easy c
 
 <div align="left">
 
+![Skill](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Skill](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
