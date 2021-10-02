@@ -64,6 +64,7 @@ button.start {
   border-radius: 8px;
   margin: 35px 0 0;
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 
 button.start:hover {
@@ -106,7 +107,7 @@ img.lowerimg {
     width: 500px;
   }
 
- /* div.heroImgSec,
+  /* div.heroImgSec,
   img.lowerimg {
     width: 36.38360175695461vw;
     height: 22.913616398243047vw;
@@ -143,7 +144,7 @@ img.lowerimg {
   div.heroImgSec,
   img.lowerimg {
     width: 71.02489019033675vw;
-  height: 52.09297218155198vw;
+    height: 52.09297218155198vw;
   }
 
   h1.titleP {

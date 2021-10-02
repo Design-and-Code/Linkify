@@ -25,7 +25,7 @@ export default function Header() {
     margin-top: 29px;
     margin-right: 112px;
     margin-left: 128px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     @media (max-width: 1200px) {
       //insert code later if required.
     }
@@ -35,7 +35,7 @@ export default function Header() {
       margin-left: 15px;
     }
     @media (max-width: 300px) {
-      justify-content:center;
+      justify-content: center;
     }
   `;
   const LogoText = styled.div`
@@ -45,14 +45,14 @@ export default function Header() {
   const ButtonGroup = styled.div`
     display: flex;
     cursor: pointer;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   `;
   const LeftButton = styled.div`
     margin-right: 5px;
     color: black;
     border: 2px solid #4643c3;
     display: flex;
-
+    transition: all ease 0.3s;
     padding: 3px 17px 5px 16px;
     border-radius: 8px;
     :hover {
@@ -63,6 +63,7 @@ export default function Header() {
   const RightButton = styled(LeftButton)`
     background-color: #4643c3;
     color: #fff;
+    transition: all ease 0.3s;
     :hover {
       background: none;
       color: black;
