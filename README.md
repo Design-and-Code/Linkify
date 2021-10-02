@@ -4,6 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/Linkify/issues)
+[![issues](https://img.shields.io/github/issues/Design-and-Code/Linkify?color=6CC621)](https://github.com/Design-and-Code/Linkify/issues)
 
 ![Linkify Banner](https://user-images.githubusercontent.com/63140632/135325523-c52ddaa5-f424-488d-9139-26628ed7dc16.png)
 
@@ -26,6 +27,9 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 </a>
 <a href="https://github.com/Design-and-Code" style="text-decoration:none">
   <img height="30" src="https://img.shields.io/badge/Github-grey.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+</a>
+<a href="https://twitter.com/DesignandCode3" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/Twitter-31a2f2.svg?&style=for-the-badge&logo=twitter&logoColor=white">
 </a>
 <a href="https://www.instagram.com/designandcode.community" style="text-decoration:none">
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
@@ -53,6 +57,8 @@ A site that lets you include all your links in a single-page website with easy c
 
 <div align="left">
 
+![Skill](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Skill](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -177,7 +183,7 @@ git push -u origin <your_branch_name>
 
 **15** Voilà! You have made a PR to Linkify 💥. Wait for your submission to be accepted and your PR to be merged.
 
-
+#### Head to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 ## Project Maintainers 🛠
 
