@@ -135,11 +135,13 @@ p {
     color: var(--clr-white);
     background: var(--clr-black);
   }
-  .section-header {
+  .section-header,
+  .section-header-dark-mode {
     margin-top: 3%;
     text-align: center;
   }
-  .section-header h2 {
+  .section-header h2,
+  .section-header-dark-mode h2 {
     font-size: 48px;
     font-family: Nunito;
     font-style: normal;
@@ -148,6 +150,10 @@ p {
     text-transform: uppercase;
     font-weight: 300;
     color: #000000;
+  }
+
+  .section-header-dark-mode h2 {
+    color: white;
   }
 
   .section-header p {

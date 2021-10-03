@@ -3,10 +3,12 @@ import styled from "styled-components";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { LinkifyContext } from "../../../context";
+import ToggleButton from "../../toggleButton";
 
 export default function Header() {
   const { theme, setTheme } = React.useContext(LinkifyContext);
   console.log(theme, setTheme);
+  const isLight = theme === "light-theme";
 
   const handleSubmit = () => {
     if (theme === "light-theme") setTheme("dark-theme");
@@ -52,7 +54,6 @@ export default function Header() {
     color: black;
     border: 2px solid #4643c3;
     display: flex;
-    transition: all ease 0.3s;
     padding: 3px 17px 5px 16px;
     border-radius: 8px;
     :hover {
@@ -63,10 +64,9 @@ export default function Header() {
   const RightButton = styled(LeftButton)`
     background-color: #4643c3;
     color: #fff;
-    transition: all ease 0.3s;
     :hover {
       background: none;
-      color: black;
+      color: ${({ lightTheme }) => (lightTheme ? "black" : "white")};
     }
   `;
 
@@ -93,15 +93,10 @@ export default function Header() {
           </LeftButton>
         </StyledLink>
         <StyledLink to="/account">
-          <RightButton>Sign Up</RightButton>
+          <RightButton lightTheme={isLight}>Sign Up</RightButton>
         </StyledLink>
         <StyledLink>
-          <Toggle
-            onClick={handleSubmit}
-            className={theme === "light-theme" ? "lightfont" : "darkfont"}
-          >
-            Toggle
-          </Toggle>
+          <ToggleButton theme={theme} toggleTheme={handleSubmit} />
         </StyledLink>
       </ButtonGroup>
     </Container>
