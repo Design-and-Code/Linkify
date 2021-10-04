@@ -19,26 +19,23 @@ const ToggleButton = ({ theme, toggleTheme }) => {
     width: 5rem;
     height: 2rem;
     border: none;
-    transition: all 0.3s linear;
 
     svg {
       height: auto;
       width: 1.5rem;
-      transition: all 0.3s linear;
-
       color: yellow;
+      transition: all linear 0.3s;
+
       // sun icon
       &:first-child {
-        transition: all ease-in-out 3s;
         transform: ${({ lightTheme }) =>
-          lightTheme ? "translateY(0)" : "translateY(100px)"};
+          lightTheme ? "translateX(0)" : "translateX(100px)"};
       }
 
       // moon icon
       &:nth-child(2) {
-        transition: all ease 3s;
         transform: ${({ lightTheme }) =>
-          lightTheme ? "translateY(-100px)" : "translateY(0)"};
+          lightTheme ? "translateX(-100px)" : "translateX(0)"};
       }
     }
   `;
