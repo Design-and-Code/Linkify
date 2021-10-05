@@ -3,15 +3,20 @@ import styled from "styled-components";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { LinkifyContext } from "../../../context";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 export default function Header() {
-  const { theme, setTheme } = React.useContext(LinkifyContext);
+  const { theme, setTheme, setIsModalOpen } = React.useContext(LinkifyContext);
   console.log(theme, setTheme);
 
-  const handleSubmit = () => {
-    if (theme === "light-theme") setTheme("dark-theme");
-    else setTheme("light-theme");
+  const themeObj = {
+    color: theme,
   };
+
+  // const handleSubmit = () => {
+  //   if (theme === "light-theme") setTheme("dark-theme");
+  //   else setTheme("light-theme");
+  // };
 
   React.useEffect(() => {
     document.body.classList = theme;
@@ -25,7 +30,7 @@ export default function Header() {
     margin-top: 29px;
     margin-right: 112px;
     margin-left: 128px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     @media (max-width: 1200px) {
       //insert code later if required.
     }
@@ -35,7 +40,7 @@ export default function Header() {
       margin-left: 15px;
     }
     @media (max-width: 300px) {
-      justify-content:center;
+      justify-content: center;
     }
   `;
   const LogoText = styled.div`
@@ -45,11 +50,11 @@ export default function Header() {
   const ButtonGroup = styled.div`
     display: flex;
     cursor: pointer;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   `;
   const LeftButton = styled.div`
     margin-right: 5px;
-    color: black;
+    color: ${(props) => props.themeObj};
     border: 2px solid #4643c3;
     display: flex;
 
@@ -65,13 +70,15 @@ export default function Header() {
     color: #fff;
     :hover {
       background: none;
-      color: black;
+      color: ${(props) => {
+        console.log(props);
+        return props.theme === "light-theme" ? "black" : "white";
+      }};
     }
   `;
 
   const Toggle = styled(LeftButton)`
-    transition 
-  
+    transition: all 0.5s linear;
   `;
   const StyledLink = styled(Link)`
     text-decoration: none;
@@ -84,23 +91,42 @@ export default function Header() {
         <LogoText className={theme}>Linkify</LogoText>
       </StyledLink>
       <ButtonGroup>
-        <StyledLink to="/account">
+        <StyledLink>
           <LeftButton
-            className={theme === "light-theme" ? "lightfont" : "darkfont"}
+            themeObj={theme === "light-theme" ? "black" : "white"}
+            onClick={() => setIsModalOpen(true)}
           >
             Login
           </LeftButton>
         </StyledLink>
-        <StyledLink to="/account">
-          <RightButton>Sign Up</RightButton>
-        </StyledLink>
         <StyledLink>
+          <RightButton onClick={() => setIsModalOpen(true)} theme={theme}>
+            Sign Up
+          </RightButton>
+        </StyledLink>
+        {/* <StyledLink>
           <Toggle
             onClick={handleSubmit}
             className={theme === "light-theme" ? "lightfont" : "darkfont"}
           >
             Toggle
           </Toggle>
+        </StyledLink> */}
+        <StyledLink>
+          <div className="toggle-container">
+            {theme === "light-theme" && (
+              <MdDarkMode
+                className="toggle-icon"
+                onClick={() => setTheme("dark-theme")}
+              />
+            )}
+            {theme === "dark-theme" && (
+              <MdLightMode
+                className="toggle-icon darkfont"
+                onClick={() => setTheme("light-theme")}
+              />
+            )}
+          </div>
         </StyledLink>
       </ButtonGroup>
     </Container>

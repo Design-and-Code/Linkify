@@ -19,3 +19,15 @@ body {
 .darkfont {
   color: white !important;
 }
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 17px 5px 16px;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  transition: all 0.25s;
+}
