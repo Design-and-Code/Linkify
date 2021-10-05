@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap");
 
+:root {
+  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-5: hsl(205, 78%, 60%);
+  --transition: all 0.3s linear;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -66,8 +72,10 @@ button.start {
   cursor: pointer;
 }
 
-button.start:hover {
-  box-shadow: 0 2px 3px rgb(70, 67, 195, 0.5);
+.start:hover {
+  /* box-shadow: 0 2px 3px rgb(70, 67, 195, 0.5); */
+  background: var(--clr-primary-10) !important;
+  color: var(--clr-primary-5) !important;
 }
 
 div.heroImgSec {
@@ -106,7 +114,7 @@ img.lowerimg {
     width: 500px;
   }
 
- /* div.heroImgSec,
+  /* div.heroImgSec,
   img.lowerimg {
     width: 36.38360175695461vw;
     height: 22.913616398243047vw;
@@ -143,7 +151,7 @@ img.lowerimg {
   div.heroImgSec,
   img.lowerimg {
     width: 71.02489019033675vw;
-  height: 52.09297218155198vw;
+    height: 52.09297218155198vw;
   }
 
   h1.titleP {

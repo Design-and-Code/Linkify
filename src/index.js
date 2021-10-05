@@ -12,7 +12,6 @@ function Main() {
     <LinkifyProvider>
       <Router>
         <Link to="/"></Link>
-        <Link to="/account"></Link>
         <Switch>
           <Route exact path="/">
             <App />

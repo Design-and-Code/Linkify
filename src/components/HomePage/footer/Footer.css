@@ -1,3 +1,9 @@
+:root {
+  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-5: hsl(205, 78%, 60%);
+  --transition: all 0.3s linear;
+}
+
 .footer {
   font-family: "Nunito", sans-serif;
   height: 700px;
@@ -119,6 +125,9 @@
   font-size: 30px;
 }
 
+.social-button:hover {
+  color: var(--clr-primary-5) !important;
+}
 @media screen and (max-width: 1150px) {
   .left-prop,
   .right-prop {
