@@ -62,3 +62,17 @@
   cursor: pointer;
   color: white;
 }
+
+
+@media (max-width: 768px) {
+  .modal-container {
+    width: 80vw;
+  }
+  .close-btn {
+    left: 90%;
+  }
+
+  .media-desc, .signin-button {
+    font-size: 13px;
+  }
+}

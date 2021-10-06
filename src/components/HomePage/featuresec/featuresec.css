@@ -262,6 +262,11 @@ p {
   }
   .green {
     margin: 10% 0%;
+    margin: 0;
+  }
+
+  .dot-r, .dot-l {
+    display: none;
   }
 }
 
