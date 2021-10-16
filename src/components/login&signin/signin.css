@@ -1,11 +1,12 @@
 :root {
   --clr-primary-10: hsl(205, 100%, 96%);
   --clr-primary-5: hsl(205, 78%, 60%);
-  --transition: all 0.3s linear;
+  --transition: all 0.25s ease-in-out;
 }
 
 .section {
   padding: 10px;
+  transition: var(--transition);
 }
 
 .signheading {

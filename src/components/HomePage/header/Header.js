@@ -60,7 +60,7 @@ export default function Header() {
     display: flex;
     padding: 3px 17px 5px 16px;
     border-radius: 8px;
-    transition-delay: 3s;
+    transition: all 0.25s ease-in-out;
     :hover {
       background-color: #4643c3;
       color: #fff;

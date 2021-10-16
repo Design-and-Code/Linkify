@@ -23,6 +23,7 @@
   background-color: rgb(251, 249, 249);
   color: black;
   border-radius: 8px;
+  transition: all 0.25s ease-in-out;
   /* border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important; */
 }
