@@ -46,6 +46,7 @@ export default function Header() {
   const LogoText = styled.div`
     font-size: 25px;
     cursor: pointer;
+    background-color: transparent;
   `;
   const ButtonGroup = styled.div`
     display: flex;
@@ -57,9 +58,9 @@ export default function Header() {
     color: ${(props) => props.themeObj};
     border: 2px solid #4643c3;
     display: flex;
-
     padding: 3px 17px 5px 16px;
     border-radius: 8px;
+    transition: all 0.25s ease-in-out;
     :hover {
       background-color: #4643c3;
       color: #fff;
@@ -77,9 +78,9 @@ export default function Header() {
     }
   `;
 
-  const Toggle = styled(LeftButton)`
-    transition: all 0.5s linear;
-  `;
+  // const Toggle = styled(LeftButton)`
+  //   transition: all 0.5s linear;
+  // `;
   const StyledLink = styled(Link)`
     text-decoration: none;
     color: black;
@@ -88,7 +89,7 @@ export default function Header() {
   return (
     <Container>
       <StyledLink to="/">
-        <LogoText className={theme}>Linkify</LogoText>
+        <LogoText className={`${theme} transition`}>Linkify</LogoText>
       </StyledLink>
       <ButtonGroup>
         <StyledLink>
