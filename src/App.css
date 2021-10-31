@@ -1,0 +1,24 @@
+:root {
+  --blue: #4643c3;
+  --text-secondary: var(--clr-grey-5);
+
+  --text-light: black;
+  --text-dark: white;
+
+  --bg-light: white;
+  --bg-dark: black;
+}
+
+.light-theme {
+  --text-color: var(--text-light);
+  --text-anticolor: var(--text-dark);
+  --bg-color: var(--bg-light);
+  --bg-anticolor: var(--bg-dark);
+}
+
+.dark-theme {
+  --text-color: var(--text-dark);
+  --text-anticolor: var(--text-light);
+  --bg-color: var(--bg-dark);
+  --bg-anticolor: var(--bg-light);
+}

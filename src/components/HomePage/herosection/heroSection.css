@@ -58,7 +58,7 @@ p.about {
   word-wrap: normal;
 }
 
-button.start {
+button.hero-start {
   width: 144px;
   height: 47px;
   border: none;
@@ -67,15 +67,17 @@ button.start {
   font-size: 18px;
   line-height: 27px;
   background: #4643c3;
+  border: 2px solid #4643c3;
   border-radius: 8px;
   margin: 35px 0 0;
   cursor: pointer;
+  transition: var(--transition);
 }
 
-.start:hover {
+.hero-start:hover {
   /* box-shadow: 0 2px 3px rgb(70, 67, 195, 0.5); */
-  background: var(--clr-primary-10) !important;
-  color: var(--clr-primary-5) !important;
+  background: transparent;
+  color: white;
 }
 
 div.heroImgSec {
@@ -142,7 +144,7 @@ img.lowerimg {
   }
 
   p.about,
-  button.start {
+  button.hero-start {
     font-size: 15px;
   }
 }

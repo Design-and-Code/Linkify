@@ -7,7 +7,7 @@ import Footer from "../../components/HomePage/footer/footer.js";
 import Modal from "../../components/login&signin/modal";
 import { LinkifyContext } from "../../context.js";
 
-export default function App() {
+function Homepage() {
   const { isModalOpen, setIsModalOpen } = React.useContext(LinkifyContext);
   console.log(Modal);
   return (
@@ -25,3 +25,5 @@ export default function App() {
     </div>
   );
 }
+
+export default Homepage;
