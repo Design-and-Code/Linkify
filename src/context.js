@@ -25,16 +25,16 @@ const LinkifyProvider = ({ children }) => {
   };
 
   const signInToggler = () => {
-    console.log(isSignIn, isLogIn);
-    console.log("signin is working");
+    // console.log(isSignIn, isLogIn);
+    // console.log("signin is working");
     setIsSignIn(true);
     setIsLogIn(false);
     console.log(isSignIn, isLogIn);
   };
 
   const logInToggler = () => {
-    console.log(isSignIn, isLogIn);
-    console.log("Login is working");
+    // console.log(isSignIn, isLogIn);
+    // console.log("Login is working");
     setIsSignIn(false);
     setIsLogIn(true);
     console.log(isSignIn, isLogIn);

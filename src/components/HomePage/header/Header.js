@@ -17,16 +17,11 @@ export default function Header() {
   return (
     <HeaderContainer>
       <StyledLink to="/">
-        <LogoText className={`${theme} transition`}>Linkify</LogoText>
+        <LogoText>Linkify</LogoText>
       </StyledLink>
       <ButtonGroup>
-        <LeftButton
-          themeObj={theme === "light-theme" ? "black" : "white"}
-          onClick={() => setIsModalOpen(true)}
-        >
-          Login
-        </LeftButton>
-        <RightButton onClick={() => setIsModalOpen(true)} theme={theme}>
+        <LeftButton onClick={() => setIsModalOpen(true)}>Login</LeftButton>
+        <RightButton onClick={() => setIsModalOpen(true)}>
           Sign Up
         </RightButton>
         {/* <StyledLink>

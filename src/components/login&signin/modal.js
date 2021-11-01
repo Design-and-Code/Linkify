@@ -6,7 +6,7 @@ import { LinkifyContext } from "../../context";
 import { MdClose } from "react-icons/md";
 
 const Modal = ({ isModalOpen, setIsModalOpen }) => {
-  console.log("modal working", isModalOpen, setIsModalOpen);
+  // console.log("modal working", isModalOpen, setIsModalOpen);
   const { isSignIn, isLogIn, signInToggler, logInToggler } =
     React.useContext(LinkifyContext);
 
@@ -15,6 +15,17 @@ const Modal = ({ isModalOpen, setIsModalOpen }) => {
     <>
       {isModalOpen ? (
         <div className="modal-container-overlay">
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: 0,
+            }}
+            onClick={() => setIsModalOpen(false)}
+          ></div>
           <section className="modal-container">
             <div className="heading-container">
               <div
@@ -23,7 +34,7 @@ const Modal = ({ isModalOpen, setIsModalOpen }) => {
                 }
                 onClick={signInToggler}
               >
-                Sign in
+                Sign Up
               </div>
               <div
                 className={

@@ -1,12 +1,6 @@
-:root {
-  --clr-primary-10: hsl(205, 100%, 96%);
-  --clr-primary-5: hsl(205, 78%, 60%);
-  --transition: all 0.25s ease-in-out;
-}
-
 .section {
   padding: 10px;
-  transition: var(--transition);
+  transition: all 0.25s ease-in-out;
 }
 
 .signheading {
@@ -20,7 +14,7 @@
 }
 
 .example {
-  color: grey;
+  color: var(--text-secondary);
   text-align: start;
   text-transform: none;
 }
@@ -37,11 +31,14 @@
 }
 
 .form-input {
-  padding: 0.8rem 0.32rem;
+  box-sizing: border-box;
+  padding: 0.8rem 0;
   margin-bottom: 1rem;
   border: 1.5px solid black;
   border-radius: 6px;
   width: 100%;
+  outline: none;
+  padding-left: 20px;
 }
 
 .signin-button {
@@ -50,12 +47,18 @@
   margin-bottom: 1.5rem;
   margin-top: 1rem;
   color: white;
-  background-color: rgb(7, 7, 187);
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
   font-weight: bold;
   font-size: 1rem;
-  border: none;
   border-radius: 6px;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.signin-button:hover {
+  color: black;
+  background-color: transparent;
 }
 
 .line-container {
@@ -91,7 +94,7 @@ span {
   background-color: white;
   align-items: center;
   cursor: pointer;
-  transition: var(--transition);
+  transition: all 0.25s ease-in-out;
   border: 2px solid black;
   border-radius: 6px;
 }
@@ -99,11 +102,6 @@ span {
 .media-desc {
   text-align: center;
   font-weight: 600;
-}
-
-.signin-button:hover {
-  background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
 }
 /* 
 @media all and (min-width: 350px) {

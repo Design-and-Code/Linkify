@@ -7,7 +7,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
-  left: 50;
+  left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 100;
@@ -17,6 +17,7 @@
 }
 
 .modal-container {
+  z-index: 200;
   width: 50%;
   text-align: center;
   /* border: 1px solid black; */
@@ -42,7 +43,7 @@
   height: 150%;
   background: var(--clr-grey-9);
   cursor: pointer;
-  transition: var(--transition);
+  transition: all 0.25s ease-in-out;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
 }
