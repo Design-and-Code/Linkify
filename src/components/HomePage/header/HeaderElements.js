@@ -8,25 +8,20 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  padding-top: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
   flex-wrap: wrap;
   z-index: 10;
-
-  @media (max-width: 1200px) {
-    /* insert code later if required. */
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 100px;
+  background-color: var(--bg-color);
 
   @media (max-width: 1050px) {
-    padding-top: 15px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0 30px;
   }
 
   @media (max-width: 400px) {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
   }
 `;
 
@@ -35,10 +30,7 @@ export const LogoText = styled.div`
   cursor: pointer;
   background-color: transparent;
   font-family: "Nunito";
-
-  @media (max-width: 500px) {
-    font-size: 25px;
-  }
+  color: var(--text-color);
 `;
 
 export const ButtonGroup = styled.div`
@@ -63,6 +55,10 @@ export const LeftButton = styled.div`
   :hover {
     background-color: var(--blue);
     color: white;
+  }
+
+  @media (max-width: 500px) {
+    display: none;
   }
 `;
 

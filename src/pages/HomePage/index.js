@@ -9,9 +9,9 @@ import { LinkifyContext } from "../../context.js";
 
 function Homepage() {
   const { isModalOpen, setIsModalOpen } = React.useContext(LinkifyContext);
-  console.log(Modal);
+
   return (
-    <div>
+    <>
       <Header />
       <HeroSection
         titleP="All your links in one place"
@@ -22,7 +22,7 @@ function Homepage() {
       <Features />
       <Feature />
       <Footer />
-    </div>
+    </>
   );
 }
 

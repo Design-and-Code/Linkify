@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./features1.module.css";
 import img from "./assets/feature_laptop.png";
 import cx from "classnames";
-import { LinkifyContext } from "../../../context";
 
 const DetailedFeature = () => {
   return (

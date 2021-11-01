@@ -20,8 +20,8 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="join-our-community">
-        <img className="left-prop" src={leftProp} alt="left-prop" />
-        <img className="right-prop" src={rightProp} alt="right-prop" />
+        <img className="footer-left-prop" src={leftProp} alt="left-prop" />
+        <img className="footer-right-prop" src={rightProp} alt="right-prop" />
         <h1>Join our Community</h1>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -32,14 +32,9 @@ export default function Footer() {
         <button className="join-button">Get Started</button>
       </div>
 
-      <div className={`footer-socials ${theme}`}>
+      <div className={"footer-socials"}>
         <div className="social-logo">
-          <a
-            className={`social-logo ${
-              theme === "light-theme" ? "lightfont" : "darkfont"
-            }`}
-            href="/"
-          >
+          <a className="social-logo" href="/">
             Linkify
           </a>
         </div>

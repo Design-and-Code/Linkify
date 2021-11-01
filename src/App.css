@@ -2,7 +2,7 @@
 
 :root {
   --blue: #4643c3;
-  --text-secondary: #8E8E8E;
+  --text-secondary: #8e8e8e;
 
   --text-light: black;
   --text-dark: white;
@@ -39,5 +39,8 @@ body {
   transition: all 0.25s ease-in-out;
   padding: 0;
   margin: 0;
+}
+
+.App {
   background-color: var(--bg-color);
 }

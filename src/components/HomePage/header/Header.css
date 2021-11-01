@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px 16px;
+  padding-left: 10px;
   transition: all 0.25s ease-in-out;
 }
 
 .toggle-icon {
   font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
+  color: var(--text-color);
 }
 
 .transition {
@@ -17,6 +18,6 @@
 
 @media screen and (max-width: 500px) {
   .toggle-container {
-    padding: 4px;
+    padding-left: 4px;
   }
 }

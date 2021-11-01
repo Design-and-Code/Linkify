@@ -13,17 +13,6 @@ import {
 
 export default function Header() {
   const { theme, setTheme, setIsModalOpen } = React.useContext(LinkifyContext);
-  console.log(theme, setTheme);
-
-  // const handleSubmit = () => {
-  //   if (theme === "light-theme") setTheme("dark-theme");
-  //   else setTheme("light-theme");
-  // };
-
-  React.useEffect(() => {
-    document.body.classList = theme;
-    localStorage.setItem("theme", theme);
-  }, [theme]);
 
   return (
     <HeaderContainer>

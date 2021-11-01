@@ -13,7 +13,7 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  margin: 150px 10%;
+  margin: 50px 10%;
 }
 
 .row div {
@@ -21,7 +21,6 @@
 }
 
 .row:last-child {
-  margin: 10px 10% !important;
   flex-direction: row-reverse;
 }
 
