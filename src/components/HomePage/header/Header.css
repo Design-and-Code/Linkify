@@ -1,35 +1,8 @@
-body {
-  font-family: "Nunito", sans-serif;
-  transition: all 0.25s ease-in-out;
-}
-
-.light-theme {
-  background-color: #fff;
-  color: black;
-  transition: all 0.25s ease-in-out;
-}
-
-.lightfont {
-  color: black !important;
-  transition: all 0.25s ease-in-out;
-}
-
-.dark-theme {
-  background-color: black;
-  color: #fff;
-  transition: all 0.25s ease-in-out;
-}
-
-.darkfont {
-  color: white !important;
-  transition: all 0.25s ease-in-out;
-}
-
 .toggle-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px 17px 4px 16px;
+  padding: 4px 16px;
   transition: all 0.25s ease-in-out;
 }
 

@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Account from "./pages/Account";
 import { LinkifyContext } from "./context";
 import Homepage from "./pages/HomePage/index.js";
+import "./App.css";
 
 function App() {
   const { theme } = useContext(LinkifyContext);

@@ -6,11 +6,6 @@
   --transition: all 0.3s linear;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 div.randomDesign {
   position: relative;
   max-width: 100%;
