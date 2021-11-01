@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .features-header {
@@ -143,6 +144,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .features-section {
+    margin-bottom: 50px;
+  }
+
   .features-header {
     font-size: 36px;
   }
