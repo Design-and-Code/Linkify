@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/HomePage/header/Header.js";
-import Home from "../../components/HomePage/featuresec/featuresec";
+import Features from "../../components/HomePage/featuresec/Features.js";
 import HeroSection from "../../components/HomePage/herosection/herosection";
 import Feature from "../../components/HomePage/features1/feature1";
 import Footer from "../../components/HomePage/footer/footer.js";
@@ -19,7 +19,7 @@ function Homepage() {
         start="Get Started"
       />
       <Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
-      <Home />
+      <Features />
       <Feature />
       <Footer />
     </div>

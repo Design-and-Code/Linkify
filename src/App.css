@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --blue: #4643c3;
-  --text-secondary: var(--clr-grey-5);
+  --text-secondary: #8E8E8E;
 
   --text-light: black;
   --text-dark: white;
 
-  --bg-light: #F6FAFF;
+  --bg-light: #f6faff;
   --bg-dark: black;
 }
 
@@ -25,10 +25,19 @@
   --bg-anticolor: var(--bg-light);
 }
 
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins";
   font-size: 0.875rem;
   transition: all 0.25s ease-in-out;
   padding: 0;
   margin: 0;
+  background-color: var(--bg-color);
 }
