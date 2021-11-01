@@ -1,34 +1,44 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Container = styled.div`
+export const HeaderContainer = styled.div`
+  box-sizing: border-box;
+  height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: bold;
-  margin-top: 29px;
-  margin-right: 112px;
-  margin-left: 128px;
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
   flex-wrap: wrap;
+  z-index: 10;
 
   @media (max-width: 1200px) {
     /* insert code later if required. */
   }
 
   @media (max-width: 1050px) {
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
-  @media (max-width: 300px) {
-    justify-content: center;
+  @media (max-width: 400px) {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 `;
 
 export const LogoText = styled.div`
-  font-size: 25px;
+  font-size: 30px;
   cursor: pointer;
   background-color: transparent;
+  font-family: "Nunito";
+
+  @media (max-width: 500px) {
+    font-size: 25px;
+  }
 `;
 
 export const ButtonGroup = styled.div`
@@ -44,9 +54,11 @@ export const LeftButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3px 17px 5px 16px;
+  padding: 4px 16px;
   border-radius: 8px;
   transition: all 0.25s ease-in-out;
+  font-size: 13px;
+  min-width: 90px;
 
   :hover {
     background-color: var(--blue);

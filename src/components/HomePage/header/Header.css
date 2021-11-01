@@ -14,3 +14,9 @@
 .transition {
   transition: all 0.25s ease-in-out;
 }
+
+@media screen and (max-width: 500px) {
+  .toggle-container {
+    padding: 4px;
+  }
+}

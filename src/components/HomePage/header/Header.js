@@ -4,7 +4,7 @@ import { LinkifyContext } from "../../../context";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import {
   ButtonGroup,
-  Container,
+  HeaderContainer,
   LeftButton,
   LogoText,
   RightButton,
@@ -26,7 +26,7 @@ export default function Header() {
   }, [theme]);
 
   return (
-    <Container>
+    <HeaderContainer>
       <StyledLink to="/">
         <LogoText className={`${theme} transition`}>Linkify</LogoText>
       </StyledLink>
@@ -63,6 +63,6 @@ export default function Header() {
           )}
         </div>
       </ButtonGroup>
-    </Container>
+    </HeaderContainer>
   );
 }
