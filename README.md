@@ -83,36 +83,40 @@ Welcome to Design & Code where anyone interested in designing and coding can con
 ```
 root
 ├── public
-│   └── favicon.io
-│   └── index.html
-│   └── manifest.json
+│   ├── favicon.io
+│   ├── index.html
+│   ├── manifest.json
 │   └── robots.txt
-|
+│
 ├── src
 │   ├── components
-│   |   ├── assets
-|   |   |   └── asset files
-|   |   |
-│   |   ├── component
-|   |   |   └── component1.jsx
-|   |   |   └── component2.jsx
-|   |   |
-│   |   └── component
-|   |       └── component1.jsx
-|   |       └── component2.jsx
-|   |
-|   ├── pages
-│   |   ├── page
-|   |   |   └── index.jsx
-|   |   |
-│   |   └── page
-|   |       └── index.jsx
-│   |
-|   └── index.js
-|
-└──  .gitignore
-└──  README.MD
-└──  package-lock.json
+│   │   ├── assets
+│   │   │   └── asset files
+│   │   │
+│   │   ├── component
+│   │   │   ├── component1.jsx
+│   │   │   └── component2.jsx
+│   │   │
+│   │   └── component
+│   │       ├── component1.jsx
+│   │       └── component2.jsx
+│   │
+│   ├── pages
+│   │   ├── page
+│   │   │   └── index.jsx
+│   │   │
+│   │   └── page
+│   │       └── index.js
+│   │
+│   ├── index.js
+│   ├── App.js
+│   ├── App.css
+│   └── context.js
+│
+├──  .gitignore
+├──  CONTRIBUTING.md
+├──  README.md
+├──  package-lock.json
 └──  package.json
 ```
 
