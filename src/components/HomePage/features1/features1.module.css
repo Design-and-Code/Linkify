@@ -6,54 +6,67 @@
   justify-content: center;
   max-width: 1500px;
 }
+
 .row {
   display: flex;
-  justify-content: space-between;
-  margin: 150px 10%;
-  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10%;
 }
+
 .row div {
   width: 49.2%;
 }
+
 .row:last-child {
-  margin: 10px 10% !important;
   flex-direction: row-reverse;
 }
+
 .detailedFeatureSection h3 {
   font-family: Nunito;
   font-size: 44px;
+  margin-bottom: 20px;
   font-weight: 600;
-  color: black;
+  color: var(--text-color);
 }
+
 .detailedFeatureSection p {
   font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
-  color: #8e8e8e;
-  margin-top: 35px;
+  color: var(--text-secondary);
 }
+
 .row div img {
   width: 430px;
   object-fit: contain;
+  max-width: 100%;
 }
+
 .imgCust {
   text-align: end;
 }
+
 .imgDash {
   text-align: start;
 }
-@media only screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1200px) {
   .row div img {
     width: 400px;
   }
+
   .detailedFeatureSection h3 {
     font-size: 36px;
+    margin-bottom: 18px;
   }
 }
-@media only screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
   .row {
     margin-top: 100px;
-    
   }
 
   .row div img {
@@ -67,60 +80,49 @@
   }
 
   .detailedFeatureSection h3 {
-    font-size: 34x;
+    font-size: 26px;
   }
   .detailedFeatureSection p {
     font-size: 14px;
-    margin-top: 30px;
-  }
-
-  .dashboard h3, .dashboard p {
-    text-align: right;
-    margin-left: 1em;
   }
 }
-.featureHead{
-  overflow-wrap:break-word;
+
+.featureHead {
+  overflow-wrap: break-word;
   hyphens: auto;
 }
-@media only screen and (max-width: 800px) {
+
+@media screen and (max-width: 800px) {
   .row {
-    margin-top: 75px;
+    margin-top: 50px;
     flex-direction: column-reverse !important;
   }
+
   .row div {
     width: 100%;
   }
+
   .row div img {
     width: 100%;
   }
+
   .detailedFeatureSection h3 {
     width: 100%;
-  }
-  .detailedFeatureSection h3 {
     font-size: 32px;
   }
-  .dashboard h3, .dashboard p {
+
+  .detailedFeatureSection h3,
+  .detailedFeatureSection p {
     text-align: center;
-    margin-left: 0em;
   }
 }
 
-/* for dark mode */
-.light-theme {
-  background-color: #fff;
-  color: black;
-}
+@media screen and (max-width: 400px) {
+  .detailedFeatureSection h3 {
+    font-size: 26px;
+  }
 
-.lightfont {
-  color: black !important;
-}
-
-.dark-theme {
-  background-color: black;
-  color: #fff;
-}
-
-.darkfont {
-  color: white !important;
+  .detailedFeatureSection p {
+    font-size: 12px;
+  }
 }

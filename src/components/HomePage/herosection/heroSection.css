@@ -1,45 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap");
 
-:root {
-  --clr-primary-10: hsl(205, 100%, 96%);
-  --clr-primary-5: hsl(205, 78%, 60%);
-  --transition: all 0.3s linear;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-div.randomDesign {
-  position: relative;
-  max-width: 100%;
-  z-index: -500;
-}
-
 img.leftimg {
   position: absolute;
+  bottom: 50px;
   left: 0;
-  top: 200px;
-  width: 250px;
+  width: 150px;
+  pointer-events: none;
+  z-index: 0;
 }
 
 img.rightimg {
   position: absolute;
+  top: 100px;
   right: 0;
-  top: -300px;
-  width: 250px;
+  width: 150px;
+  pointer-events: none;
+  z-index: 0;
 }
 
 div.heroSec {
   word-wrap: normal;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+  padding-top: 180px;
 }
 
 div.introSec {
-  padding-top: 200px;
-  padding-bottom: 80px;
+  margin-bottom: 100px;
+  color: var(--text-color);
 }
 
 h1.titleP {
@@ -50,59 +40,53 @@ h1.titleP {
   margin: 0;
 }
 
-p.about {
-  font-family: "Poppins", sans-serif;
+p.heroabout {
   font-size: 18px;
   line-height: 27px;
   margin: 10px auto 0;
   word-wrap: normal;
 }
 
-button.start {
+button.hero-start {
   width: 144px;
   height: 47px;
   border: none;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  color: white;
   font-size: 18px;
   line-height: 27px;
-  background: #4643c3;
+  background: var(--blue);
+  border: 2px solid var(--blue);
   border-radius: 8px;
   margin: 35px 0 0;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
 }
 
-.start:hover {
-  /* box-shadow: 0 2px 3px rgb(70, 67, 195, 0.5); */
-  background: var(--clr-primary-10) !important;
-  color: var(--clr-primary-5) !important;
+.hero-start:hover {
+  background: transparent;
+  color: var(--text-color);
 }
 
 div.heroImgSec {
-  background-image: url(./assets/changepic.png);
-  background-size: cover;
   width: 51.02489019033675vw;
-  height: 32.09297218155198vw;
   margin: 0 auto;
   border-radius: 1.25rem;
   position: relative;
-  margin-bottom: 190px;
   display: block;
 }
 
 img.lowerimg {
-  width: 51.02489019033675vw;
-  height: 32.09297218155198vw;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  object-fit: contain;
+  width: 100%;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 800px) {
+  div.heroSec {
+    padding-top: 120px;
+  }
+
   div.introSec {
-    padding-top: 150px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 
   h1.titleP {
@@ -110,7 +94,7 @@ img.lowerimg {
     line-height: 67px;
   }
 
-  p.about {
+  p.heroabout {
     width: 500px;
   }
 
@@ -120,57 +104,54 @@ img.lowerimg {
     height: 22.913616398243047vw;
   }
 */
-  img.lowerimg {
-    top: 10px;
-    left: 10px;
-  }
 
   img.leftimg,
   img.rightimg {
     width: 150px;
+    opacity: 0.7;
   }
 
-  img.rightimg {
-    top: -150px;
+  img.leftimg {
+    bottom: 0px;
   }
 }
 
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 600px) {
   h1.titleP {
     font-size: 40px;
     line-height: 67px;
   }
 
-  p.about,
-  button.start {
+  p.heroabout,
+  button.hero-start {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  div.heroImgSec,
-  img.lowerimg {
-    width: 71.02489019033675vw;
-    height: 52.09297218155198vw;
+  div.heroSec {
+    padding: 0 15px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  div.introSec {
+    margin-bottom: 50px;
+  }
+
+  div.heroImgSec {
+    width: 80vw;
   }
 
   h1.titleP {
     line-height: 1;
     margin-bottom: 20px;
+    font-size: 32px;
   }
 
-  p.about {
+  p.heroabout {
+    font-size: 14px;
     max-width: 95%;
-  }
-
-  img.lowerimg {
-    top: 16.5px;
-    left: 7.5px;
-  }
-
-  img.leftimg,
-  img.rightimg {
-    width: 100px;
   }
 
   img.rightimg,
