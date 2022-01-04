@@ -205,10 +205,6 @@ git push -u origin <your_branch_name>
   <tbody><tr>
     <td align="center"><a href="https://github.com/DevrajDC"><img alt="" src="https://avatars.githubusercontent.com/u/65373279" width="130px;"><br><sub><b> Devraj Chatribin </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
   
-  <td align="center"><a href="https://github.com/Prathamkrishna"><img alt="" src="https://avatars.githubusercontent.com/u/34184758?v=4" width="130px;"><br><sub><b>  Pratham Krishna </b></sub></a><br><a href="https://github.com/Prathamkrishna" title="Code">💻 </a></td> </a></td>
-  
-  <td align="center"><a href="https://github.com/Pseudo-Pythonic"><img alt="" src="https://avatars.githubusercontent.com/u/73730318" width="130px;"><br><sub><b> Hardik Jaiswal </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
-  
   <td align="center"><a href="https://github.com/nimishjn"><img alt="" src="https://avatars.githubusercontent.com/u/63140632" width="130px;"><br><sub><b> Nimish Jain </b></sub></a><br><a href="https://github.com/Design-and-Code/Projects-showcase" title="Code">💻 </a></td> </a></td>
     
   </tr>
