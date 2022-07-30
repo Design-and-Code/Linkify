@@ -12,7 +12,18 @@ import {
 } from "./HeaderElements";
 
 export default function Header() {
-  const { theme, setTheme, setIsModalOpen } = React.useContext(LinkifyContext);
+  const { theme, setTheme, setIsModalOpen, signInToggler, logInToggler } =
+    React.useContext(LinkifyContext);
+
+  const handleLogin = () => {
+    setIsModalOpen(true);
+    logInToggler();
+  };
+
+  const handleSignin = () => {
+    setIsModalOpen(true);
+    signInToggler();
+  };
 
   return (
     <HeaderContainer>
@@ -20,10 +31,8 @@ export default function Header() {
         <LogoText>Linkify</LogoText>
       </StyledLink>
       <ButtonGroup>
-        <LeftButton onClick={() => setIsModalOpen(true)}>Login</LeftButton>
-        <RightButton onClick={() => setIsModalOpen(true)}>
-          Sign Up
-        </RightButton>
+        <LeftButton onClick={handleLogin}>Login</LeftButton>
+        <RightButton onClick={handleSignin}>Sign Up</RightButton>
         {/* <StyledLink>
           <Toggle
             onClick={handleSubmit}

@@ -2,6 +2,7 @@
 
 :root {
   --blue: #4643c3;
+  --light-blue: #5d5bee;
   --text-secondary: #8e8e8e;
 
   --text-light: black;
@@ -9,6 +10,9 @@
 
   --bg-light: #f6faff;
   --bg-dark: black;
+
+  --header-dark-bg: rgba(0, 0, 0, 0.76);
+  --header-light-bg: #f6faffc2;
 }
 
 .light-theme {
@@ -16,6 +20,7 @@
   --text-anticolor: var(--text-dark);
   --bg-color: var(--bg-light);
   --bg-anticolor: var(--bg-dark);
+  --header-bg: var(--header-light-bg);
 }
 
 .dark-theme {
@@ -23,6 +28,7 @@
   --text-anticolor: var(--text-light);
   --bg-color: var(--bg-dark);
   --bg-anticolor: var(--bg-light);
+  --header-bg: var(--header-dark-bg);
 }
 
 *,

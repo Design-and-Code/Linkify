@@ -14,7 +14,8 @@ export const HeaderContainer = styled.div`
   top: 0;
   width: 100%;
   padding: 0 100px;
-  background-color: var(--bg-color);
+  background-color: var(--header-bg);
+  backdrop-filter: blur(20px);
 
   @media (max-width: 1050px) {
     padding: 0 30px;
@@ -65,9 +66,10 @@ export const LeftButton = styled.div`
 export const RightButton = styled(LeftButton)`
   background-color: var(--blue);
   color: white;
+  border-color: var(--blue);
   &:hover {
-    background-color: transparent;
-    color: var(--text-color);
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
   }
 `;
 

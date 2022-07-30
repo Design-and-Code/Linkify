@@ -16,11 +16,11 @@ const Login = () => {
             type="text"
             name="email"
             id="email"
-            placeholder="   email"
+            placeholder="Email"
             className="form-input form-fix"
           />
 
-          <button className="signin-button"> Continue with your email</button>
+          <button className="signin-button">Login</button>
           <div className="line-container">
             <div className="line"></div>
             <span> Or </span>
