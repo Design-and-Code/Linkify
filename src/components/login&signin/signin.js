@@ -4,19 +4,22 @@ import "./signin.css";
 const SignIn = () => {
   return (
     <section>
-      <h3 className="signheading">Sign Up</h3>
+      <h3 className="signheading">Sign up</h3>
+      <h4 className="example" style={{ textAlign: "center" }}>
+        {" "}
+        Using your email: example@example.com
+      </h4>
       <div className="form-container">
-        <h4 className="example"> Using example@gmail.com to sign up</h4>
         <form>
           {/* name  */}
           <label htmlFor="Name" className="form-label form-fix">
-            Your Name
+            Email
           </label>
           <input
-            type="text"
-            name="name"
+            type="email"
+            name="email"
             id="name"
-            placeholder="   Name"
+            placeholder="Enter your email"
             className="form-input form-fix"
           />
 
@@ -25,14 +28,14 @@ const SignIn = () => {
             Your Password
           </label>
           <input
-            type="text"
+            type="password"
             name="password"
             id="password"
-            placeholder="   Password"
+            placeholder="Enter your password"
             className="form-input form-fix"
           />
 
-          <button className="signin-button"> Sign Up </button>
+          <button className="signin-button">Sign Up</button>
         </form>
       </div>
     </section>

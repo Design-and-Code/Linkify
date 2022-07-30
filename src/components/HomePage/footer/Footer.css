@@ -72,8 +72,8 @@
 }
 
 .join-button:hover {
-  background-color: transparent;
-  color: var(--text-color);
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
 }
 
 .footer-socials {

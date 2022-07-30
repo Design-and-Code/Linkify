@@ -64,8 +64,8 @@ button.hero-start {
 }
 
 .hero-start:hover {
-  background: transparent;
-  color: var(--text-color);
+  background: var(--light-blue);
+  border-color: var(--light-blue);
 }
 
 div.heroImgSec {
