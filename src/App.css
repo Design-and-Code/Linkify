@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 0.875rem;
   transition: all 0.25s ease-in-out;
   padding: 0;

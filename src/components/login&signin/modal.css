@@ -41,7 +41,6 @@
   display: inline-block;
   width: 50%;
   height: 150%;
-  background: var(--clr-grey-9);
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   border-top-left-radius: 8px !important;

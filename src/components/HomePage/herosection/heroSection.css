@@ -21,8 +21,7 @@ img.rightimg {
 div.heroSec {
   word-wrap: normal;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
   position: relative;
   padding-top: 180px;
 }
@@ -50,7 +49,6 @@ p.heroabout {
 button.hero-start {
   width: 144px;
   height: 47px;
-  border: none;
   font-family: "Poppins", sans-serif;
   color: white;
   font-size: 18px;
@@ -112,7 +110,7 @@ img.lowerimg {
   }
 
   img.leftimg {
-    bottom: 0px;
+    bottom: 0;
   }
 }
 
@@ -130,8 +128,7 @@ img.lowerimg {
 
 @media screen and (max-width: 550px) {
   div.heroSec {
-    padding: 0 15px;
-    padding-top: 150px;
+    padding: 150px 15px 0;
     margin-bottom: 50px;
   }
 

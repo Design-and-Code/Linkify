@@ -32,13 +32,12 @@
 
 .form-input {
   box-sizing: border-box;
-  padding: 0.8rem 0;
   margin-bottom: 1rem;
-  border: 1.5px solid black;
+  border: 1px solid black;
   border-radius: 6px;
   width: 100%;
   outline: none;
-  padding-left: 20px;
+  padding: 0.8rem 0 0.8rem 20px;
 }
 
 .signin-button {
@@ -103,7 +102,7 @@ span {
   text-align: center;
   font-weight: 600;
 }
-/* 
+/*
 @media all and (min-width: 350px) {
   .media-button {
     font-size: 0.2rem;

@@ -17,7 +17,7 @@
 .footer-left-prop {
   position: absolute;
   width: 180px;
-  left: 0px;
+  left: 0;
   bottom: 150px;
   z-index: 0;
 }
@@ -25,7 +25,7 @@
 .footer-right-prop {
   position: absolute;
   width: 240px;
-  right: 0px;
+  right: 0;
   top: 0;
   z-index: 0;
 }
@@ -60,9 +60,9 @@
 .join-button {
   width: 150px;
   height: 50px;
+  white-space: nowrap;
   background-color: var(--blue);
   border-radius: 8px;
-  padding: 10px, 20px, 10px, 20px;
   font-weight: 500;
   font-size: 18px;
   color: white;
@@ -78,7 +78,7 @@
 
 .footer-socials {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   height: 100px;
   width: 100%;
   justify-self: end;
