@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Account from "./pages/Account";
 import { LinkifyContext } from "./context";
 import Homepage from "./pages/HomePage/index.js";
@@ -11,14 +11,10 @@ function App() {
   return (
     <div className={`App ${theme}`}>
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Homepage />
-          </Route>
-          <Route exact path="/account">
-            <Account />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/account" element={<Account />} />
+        </Routes>
       </Router>
     </div>
   );
