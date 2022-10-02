@@ -1,16 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { LinkifyProvider } from "./context";
 import App from "./App";
 
-function Main() {
-  return (
-    <React.StrictMode>
-      <LinkifyProvider>
-        <App />
-      </LinkifyProvider>
-    </React.StrictMode>
-  );
-}
-
-ReactDOM.render(<Main />, document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <LinkifyProvider>
+      <App />
+    </LinkifyProvider>
+  </React.StrictMode>
+);
