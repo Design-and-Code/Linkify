@@ -1,6 +1,6 @@
 ## Description of the changes, you have made.
-<!-- Mention the issue number it fixes.
-For example: closes #21 -->
+<!-- Mention the issue number it fixes. -->
+<!-- For example: closes #21. -->
 
 ## Mention if the changes are for any specific Working Environment 
 <!-- (e.g. operating system, browser, device, N/A)  -->
