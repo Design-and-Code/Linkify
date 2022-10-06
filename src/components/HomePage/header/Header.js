@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { LinkifyContext } from "../../../context";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
+import {BsPersonCircle} from "react-icons/bs"
 import {
   ButtonGroup,
   HeaderContainer,
@@ -33,6 +34,17 @@ export default function Header() {
       <ButtonGroup>
         <LeftButton onClick={handleLogin}>Login</LeftButton>
         <RightButton onClick={handleSignin}>Sign Up</RightButton>
+
+        <div className="dropdown toggle" >
+       <button className=" btn btn-dark" style={{backgroundColor:"black",border:"none"}}type="button" data-bs-toggle="dropdown" aria-expanded="false">
+       <BsPersonCircle />
+       </button>
+  <ul className="dropdown-menu dark">
+    <li><button className="dropdown-item  " onClick={handleSignin}> SignUp</button></li>
+    <li><button className="dropdown-item " onClick={handleLogin}>LogIn</button></li>
+    
+  </ul>
+</div>
         {/* <StyledLink>
           <Toggle
             onClick={handleSubmit}
