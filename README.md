@@ -2,11 +2,11 @@
 
 > **Note**
 > 
-> Profile additions or very small stuff are not accepted for the Hacktoberfest event.\
+> **The project is on hold at present.** \
+> Major or very minor changes are not accepted for the Hacktoberfest event.\
 > Documentation changes, code/website changes, etc., are included in the Hacktoberfest event.
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/Design-and-Code/Linkify/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Maintenance](https://img.shields.io/maintenance/no/2022)](https://github.com/Design-and-Code/Linkify/graphs/commit-activity)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/Linkify/issues)
 [![issues](https://img.shields.io/github/issues/Design-and-Code/Linkify?color=6CC621)](https://github.com/Design-and-Code/Linkify/issues)
