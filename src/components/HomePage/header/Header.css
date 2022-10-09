@@ -6,6 +6,10 @@
   transition: all 0.25s ease-in-out;
 }
 
+.toggle{
+  display:none;
+}
+
 .toggle-icon {
   font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
@@ -20,4 +24,8 @@
   .toggle-container {
     padding-left: 4px;
   }
+  .toggle{
+    display: flex;
+  }
+
 }
